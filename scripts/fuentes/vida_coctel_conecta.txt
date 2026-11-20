@@ -1,0 +1,21 @@
+BORRADOR · DATOS FICTICIOS PARA PRÁCTICA
+
+FUENTE B1 · BRIEF
+Evento: Cóctel Conecta. Encuentro de networking de una comunidad ficticia.
+Asistentes: 40. Presupuesto máximo: RD$30,000.00. Duración: 150 minutos.
+Bebidas sin alcohol. Se pidieron 8 menús vegetarianos, pendientes de confirmación.
+Gafetes y señalización: RD$1,400.
+Todos los precios son importes finales ficticios. No agregues impuestos ni propinas.
+Los conceptos sin precio siguen pendientes y no equivalen a cero.
+
+FUENTE T · PROPUESTAS DE LUGAR
+[T1] Terraza Norte. Capacidad 45 personas. Lugar RD$9,000. Sonido incluido. Disponibilidad pendiente.
+[T2] Salón Coral. Capacidad 60 personas. Lugar RD$12,500. Sonido adicional RD$1,500. Disponibilidad pendiente.
+
+FUENTE C · PROPUESTAS DE CATERING
+[C1] Bocados Uno. RD$380 por persona facturable. Pedido mínimo 30 personas. Montaje fijo RD$1,200. Menú vegetariano: recargo de RD$40 por menú. Se factura el mayor entre asistentes y pedido mínimo.
+[C2] Mesa Abierta. RD$340 por persona facturable. Pedido mínimo 50 personas. Montaje fijo RD$800. Menú vegetariano sin recargo. Se factura el mayor entre asistentes y pedido mínimo.
+
+FUENTE N1 · NOTAS
+La persona que modera no ha confirmado su hora de llegada. No hay patrocinador confirmado.
+No realizar reservas, compras ni envíos.

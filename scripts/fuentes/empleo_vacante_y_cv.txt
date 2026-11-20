@@ -1,0 +1,41 @@
+DATOS FICTICIOS PARA PRÁCTICA · La persona, la empresa y los datos son inventados.
+
+FUENTE V1 · VACANTE
+Vacante: Analista de Compras
+Distribuidora ficticia · Santo Domingo · Jornada completa
+
+REQUISITOS
+- 3 años o más de experiencia en compras o abastecimiento.
+- Excel avanzado: tablas dinámicas, BUSCARV/XLOOKUP.
+- Experiencia negociando con proveedores locales e internacionales.
+- Inglés intermedio o superior.
+- Deseable: experiencia con un ERP (SAP, Odoo u otro).
+
+RESPONSABILIDADES
+- Gestionar órdenes de compra y seguimiento de entregas.
+- Comparar cotizaciones y negociar precios y plazos.
+- Mantener actualizado el registro de proveedores.
+
+
+FUENTE CV1 · CURRÍCULUM ACTUAL
+Lucía Marte
+Asistente administrativa
+lucia.marte@correo-ficticio.com · 809-000-0010
+
+EXPERIENCIA
+Asistente administrativa · Ferretería ficticia · 2024 – actual
+Prepara las órdenes de compra de materiales de oficina. Da seguimiento a las entregas de 12 proveedores locales. Mantiene el registro de proveedores en Excel.
+
+Cajera · Supermercado ficticio · 2021 – 2024
+Atención al cliente y cuadre de caja diario.
+
+EDUCACIÓN
+Técnico en Administración de Empresas.
+Curso de Excel intermedio-avanzado, 40 horas, 2025.
+
+HABILIDADES
+Excel (tablas dinámicas, BUSCARV) · Inglés básico · Atención al cliente
+
+
+FUENTE N1 · NOTA DE LA CANDIDATA
+Quiero postularme aunque no cumplo todo. No quiero poner nada que no sea cierto.
