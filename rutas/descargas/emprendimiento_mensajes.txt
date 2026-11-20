@@ -1,0 +1,15 @@
+DATOS FICTICIOS PARA PRÁCTICA
+
+FUENTE L1 · LISTA DE PRECIOS Y POLÍTICAS DE DULCE LOTE
+Mini cupcake: RD$45 por unidad.
+Caja de 6 brownies: RD$420.
+Bizcocho de 1 libra: RD$950.
+Los pedidos se hacen con 48 horas de anticipación como mínimo.
+No hay entregas los domingos.
+Anticipo: 50% para reservar la fecha. No hay pago completo contra entrega.
+Delivery: Zona A RD$350, Zona B RD$600.
+
+FUENTE M · MENSAJES RECIBIDOS HOY (JUEVES)
+[M1] "Hola, ¿me puedes entregar un bizcocho de 1 libra mañana?"
+[M2] "Quiero 2 cajas de brownies para el domingo, en Zona A."
+[M3] "¿Cuánto me salen 24 mini cupcakes en Zona B? Pago todo cuando me lleguen."

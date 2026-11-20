@@ -1,0 +1,23 @@
+DATOS FICTICIOS PARA PRÁCTICA · El negocio, la clienta y los precios son inventados.
+
+FUENTE P1 · PEDIDO
+Negocio: Dulce Lote, repostería desde casa.
+Una clienta corporativa pide 80 mini cupcakes personalizados para un evento.
+Entrega el sábado en Zona B. Pagará con tarjeta.
+Pide el descuento por volumen. No ha confirmado sabores ni hora de entrega.
+
+FUENTE L1 · LISTA DE PRECIOS Y POLÍTICAS
+Mini cupcake: RD$45 por unidad.
+Descuento por volumen: 10% sobre el precio de los productos en pedidos de 60 unidades o más.
+El delivery se cobra aparte, al costo: Zona A RD$350, Zona B RD$600.
+Pago con tarjeta: la plataforma descuenta una comisión de 4% sobre el total cobrado (productos más delivery).
+Anticipo: 50% para reservar la fecha.
+
+FUENTE C1 · COSTOS
+Ingredientes: RD$18 por unidad.
+Cápsulas y decoración: RD$6 por unidad.
+Cajas: RD$45 cada una. En cada caja caben 12 mini cupcakes.
+Mano de obra: este pedido toma 5 horas. Valor de la hora: RD$200.
+
+FUENTE N1 · NOTA DE LA DUEÑA
+Yo todavía no me pago las horas, pero quiero saber cuánto gano de verdad con este pedido.
