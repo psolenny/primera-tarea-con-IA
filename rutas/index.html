@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rutas · Tu primera tarea resuelta con IA</title>
+<meta name="description" content="Cuatro rutas con caso, prompt y resultados esperados.">
+<link rel="icon" href="../assets/logo-cecomsa-color.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="../assets/taller.css">
+</head>
+<body>
+<div class="marq" aria-hidden="true"><div class="marq-track"><span>· tu primera tarea resuelta con ia · mapear · pedir · verificar · corregir · guardar </span><span>· tu primera tarea resuelta con ia · mapear · pedir · verificar · corregir · guardar </span></div></div>
+<header class="top"><div class="wrap">
+  <a href="../index.html"><img src="../assets/logo-cecomsa-color.png" alt="CECOMSA"></a>
+  <nav><a href="../index.html">El taller</a><a href="../presentacion.html">Slides</a><a href="../rutas/index.html" class="on">Rutas</a><a href="../kit/index.html">Kit</a></nav>
+</div></header>
+<nav class="tabs" aria-label="Secciones"><div class="wrap"><a href="index.html" class="on"><span class="k">00</span>Rutas</a><a href="vida.html" class=""><span class="k">01</span>Vida cotidiana</a><a href="trabajo.html" class=""><span class="k">02</span>Trabajo</a><a href="empleo.html" class=""><span class="k">03</span>Empleo y estudios</a><a href="emprendimiento.html" class=""><span class="k">04</span>Emprendimiento</a></div></nav>
+<main>
+<section class="hero"><div class="wrap">
+  <div class="tag">// rutas · elige una</div>
+  <h1>Elige tu ruta</h1>
+  <p>Las cuatro usan el mismo método. Cambia el caso. Elige la situación que más se parece a lo que quieres resolver después.</p>
+</div></section><section class="sec"><div class="wrap">
+<div class="grid g2"><a class="box" href="vida.html"><span class="n">ruta 01 · Lanzamiento Brisa Mini</span><h3>Vida cotidiana y comunidad</h3><p>Organizar una actividad, una celebración o un viaje comparando opciones y presupuesto.</p><p style="margin-top:8px">Un evento ficticio para 30 personas con RD$18,000. Hay dos lugares y dos refrigerios para comparar.</p></a><a class="box" href="trabajo.html"><span class="n">ruta 02 · Resumen de mi lunes</span><h3>Trabajo</h3><p>Ordenar información que llega dispersa: correos, agenda, notas y pendientes.</p><p style="margin-top:8px">Ocho correos y la agenda de una semana ficticia. Hay que separar lo urgente, detectar choques y descartar el ruido.</p></a><a class="box" href="empleo.html"><span class="n">ruta 03 · La vacante de Lucía</span><h3>Empleo y estudios</h3><p>Postularte a una vacante, una beca o un curso sin inventar nada.</p><p style="margin-top:8px">Una vacante de Analista de Compras y el currículum de una candidata ficticia que cumple solo una parte.</p></a><a class="box" href="emprendimiento.html"><span class="n">ruta 04 · El pedido de Dulce Lote</span><h3>Emprendimiento</h3><p>Cotizar, poner precios y responder a clientes sabiendo cuánto ganas de verdad.</p><p style="margin-top:8px">Una repostería ficticia recibe un pedido de 80 mini cupcakes con descuento, delivery y pago con tarjeta.</p></a></div>
+</div></section><section class="sec"><div class="wrap">
+  <div class="eyebrow">// cómo se usa cada ruta</div>
+<div class="grid g3">
+  <div class="box"><span class="n">vuelta 1 · 40 min</span><h3>Caso semilla</h3><p>El caso ficticio de tu ruta. Tiene respuesta correcta, así que puedes comprobar sola o solo si la IA acertó.</p></div>
+  <div class="box"><span class="n">vuelta 2 · 40 min</span><h3>Tú eliges</h3><p>A) tu caso propio, B) el segundo caso del kit, o C) convertir tu resultado en una herramienta. Las tres opciones valen igual.</p></div>
+  <div class="box soft"><span class="n">si te atrasas</span><h3>Rescate</h3><p>Cada ruta trae sus resultados esperados. Si tu cuenta se agota, sigue verificando con ellos. <a href="../kit/recuperacion.html">Guía de rescate →</a></p></div>
+</div>
+</div></section>
+</main>
+<footer class="foot"><div class="wrap">
+  <img src="../assets/logo-cecomsa-color.png" alt="CECOMSA">
+  <div class="firma"><b>Solenny Peralta</b><span>Gerente de Proyectos de Innovación y Servicios TI</span></div>
+</div></footer>
+<script>
+document.querySelectorAll('.copy').forEach(function(b){b.addEventListener('click',function(){
+  var t=b.closest('.prompt').querySelector('pre').innerText;
+  navigator.clipboard.writeText(t).then(function(){var o=b.textContent;b.textContent='¡copiado!';b.classList.add('ok');setTimeout(function(){b.textContent=o;b.classList.remove('ok');},1500);});
+});});
+</script>
+</body>
+</html>

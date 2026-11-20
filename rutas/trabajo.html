@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trabajo · Ruta 02</title>
+<meta name="description" content="Ordenar información que llega dispersa: correos, agenda, notas y pendientes.">
+<link rel="icon" href="../assets/logo-cecomsa-color.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="../assets/taller.css">
+</head>
+<body>
+<div class="marq" aria-hidden="true"><div class="marq-track"><span>· tu primera tarea resuelta con ia · mapear · pedir · verificar · corregir · guardar </span><span>· tu primera tarea resuelta con ia · mapear · pedir · verificar · corregir · guardar </span></div></div>
+<header class="top"><div class="wrap">
+  <a href="../index.html"><img src="../assets/logo-cecomsa-color.png" alt="CECOMSA"></a>
+  <nav><a href="../index.html">El taller</a><a href="../presentacion.html">Slides</a><a href="../rutas/index.html" class="on">Rutas</a><a href="../kit/index.html">Kit</a></nav>
+</div></header>
+<nav class="tabs" aria-label="Secciones"><div class="wrap"><a href="index.html" class=""><span class="k">00</span>Rutas</a><a href="vida.html" class=""><span class="k">01</span>Vida cotidiana</a><a href="trabajo.html" class="on"><span class="k">02</span>Trabajo</a><a href="empleo.html" class=""><span class="k">03</span>Empleo y estudios</a><a href="emprendimiento.html" class=""><span class="k">04</span>Emprendimiento</a></div></nav>
+<main>
+<section class="hero"><div class="wrap">
+  <div class="tag">// ruta 02 de 04 · caso semilla: Resumen de mi lunes</div>
+  <h1>Trabajo</h1>
+  <p>Ordenar información que llega dispersa: correos, agenda, notas y pendientes. Ocho correos y la agenda de una semana ficticia. Hay que separar lo urgente, detectar choques y descartar el ruido.</p>
+</div></section><section class="sec"><div class="wrap">
+  <div class="eyebrow">// paso 1 · mapear</div>
+  <h2>Antes de pedir.</h2>
+  <p class="lead">Escríbelo en tu hoja. Si no sabes qué vas a revisar, todavía no pidas.</p>
+<div class="grid g2" style="align-items:start">
+  <div class="box"><span class="n">qué debe salir</span><p>Una página con lo urgente, la semana en una tabla, los choques y lo que se puede ignorar.</p></div>
+  <div class="box azul"><span class="n">// qué vas a revisar antes de aceptarlo</span><ul class="check" style="margin-top:10px"><li>Que cada urgente tenga quién lo pide y para cuándo.</li><li>Que detecte el choque del miércoles.</li><li>Que no ponga fechas que ningún correo da.</li></ul></div>
+</div>
+</div></section><section class="sec"><div class="wrap">
+  <div class="eyebrow">// paso 2 · pedir</div>
+  <h2>El caso y el pedido.</h2>
+<div class="prompt"><div class="prompt-head"><span class="prompt-n">fuentes</span><span class="prompt-t">Las fuentes del caso</span><button class="copy" type="button">copiar fuentes</button></div><pre>FUENTE E · CORREOS
+# Bandeja de entrada (datos de prueba)
+
+Correos ficticios para el demo &quot;Resumen de mi lunes&quot;. Personas y empresas inventadas.
+
+---
+
+**De:** Laura Gómez (Gerente de Ventas)
+**Fecha:** viernes 9:12
+**Asunto:** Reporte de ventas Q3 — lo necesito el miércoles
+Hola, ¿me puedes enviar el reporte de ventas del Q3 por línea de producto antes del miércoles al mediodía? Es para la reunión con dirección del jueves.
+
+---
+
+**De:** Pedro Álvarez (Proveedor · Importadora Ficticia)
+**Fecha:** viernes 15:40
+**Asunto:** Retraso en el embarque
+Les informamos que el embarque de monitores se retrasa 6 días por inspección en aduanas. Nueva fecha estimada: martes de la próxima semana. Favor confirmar si mantienen el pedido.
+
+---
+
+**De:** Recursos Humanos
+**Fecha:** viernes 11:05
+**Asunto:** Recordatorio: evaluaciones de desempeño
+Les recordamos que las evaluaciones de su equipo vencen este viernes. El formulario está en el portal.
+
+---
+
+**De:** Boletín Tecnología Hoy
+**Fecha:** sábado 7:00
+**Asunto:** Las 10 tendencias de la semana
+Newsletter semanal con noticias del sector.
+
+---
+
+**De:** Miguel Torres (Cliente · Comercial Ficticia SRL)
+**Fecha:** domingo 18:22
+**Asunto:** Factura duplicada
+Buenas, recibimos dos veces la factura 4471 por el mismo monto. ¿Pueden revisar y anular una? Necesitamos resolverlo antes del cierre de mes.
+
+---
+
+**De:** Soporte TI
+**Fecha:** lunes 7:30
+**Asunto:** Mantenimiento programado
+El sistema de facturación estará fuera de servicio el martes de 6:00 a 8:00 p. m.
+
+---
+
+**De:** Carla Méndez (Compañera de equipo)
+**Fecha:** lunes 8:05
+**Asunto:** ¿Revisas mi presentación?
+¿Le puedes dar una mirada a mi presentación para el cliente antes del jueves? Te la dejé en la carpeta compartida.
+
+---
+
+**De:** Tienda en línea
+**Fecha:** lunes 8:15
+**Asunto:** ¡50% de descuento solo hoy!
+Promoción en artículos de oficina.
+
+
+FUENTE A · AGENDA DE LA SEMANA (CSV)
+día,hora,evento,con quién,notas
+lunes,9:00,Reunión semanal de equipo,Equipo de ventas,
+lunes,15:00,Llamada con proveedor,Pedro Álvarez,Tema: retraso del embarque
+martes,10:00,Revisión de inventario,Almacén,
+miércoles,11:00,Capacitación interna,RR.HH.,Choca con la entrega del reporte Q3 (mediodía)
+jueves,9:00,Reunión con dirección,Laura Gómez y dirección,Se presenta el reporte Q3
+jueves,14:00,Presentación a cliente,Carla Méndez,
+viernes,16:00,Cierre de semana,Equipo de ventas,</pre></div><p style="margin:-8px 0 26px"><a class="chip" href="descargas/trabajo_semana.txt" download>↓ descargar como .txt</a></p><div class="prompt"><div class="prompt-head"><span class="prompt-n">prompt</span><span class="prompt-t">Tu pedido en formato CLARO</span><button class="copy" type="button">copiar prompt</button></div><pre>[Contexto] Es lunes por la mañana y quiero arrancar la semana con claridad. Los correos y la agenda son ficticios.
+[Lo que necesito] Prepara mi &quot;Resumen del lunes&quot;.
+[Archivos] Usa solo los correos (fuente E) y la agenda (fuente A) que pego debajo.
+[Resultado] Máximo una página con: 1) Lo urgente: quién lo pide, para cuándo y una respuesta de una línea. 2) Mi semana en una tabla. 3) Choques y riesgos. 4) Lo que puedo ignorar, en una línea.
+[Omite] No inventes fechas ni compromisos. Lo que no esté claro va marcado &quot;por confirmar&quot;.</pre></div><p class="lead" style="margin-top:8px">Pega primero el prompt y debajo las fuentes, en el mismo mensaje. Si tu cuenta permite adjuntar archivos, puedes adjuntar el .txt.</p>
+</div></section><section class="sec"><div class="wrap">
+  <div class="eyebrow">// paso 3 · verificar</div>
+  <h2>¿Cuadra?</h2>
+<details class="pleg "><summary>Ver los resultados esperados</summary><div class="pleg-in"><div class="scroll"><table class="tbl"><tr><th>Qué</th><th>Resultado esperado</th></tr><tr><td>Urgentes</td><td>5: reporte Q3 para Laura (miércoles al mediodía), factura duplicada de Miguel, confirmar el pedido a Pedro, evaluaciones de RR. HH. (viernes), presentación de Carla (antes del jueves)</td></tr><tr><td>Choque</td><td>La capacitación del miércoles a las 11:00 se pisa con la entrega del reporte Q3 al mediodía</td></tr><tr><td>Se puede ignorar</td><td>2: el boletín y la promoción</td></tr></table></div></div></details><details class="pleg rosa"><summary>Ver la trampa de este caso</summary><div class="pleg-in"><p>Miguel pide resolver la factura &quot;antes del cierre de mes&quot;, pero ningún correo dice qué día es el cierre: va &quot;por confirmar&quot;, no con una fecha inventada. El embarque de Pedro tiene fecha &quot;estimada&quot;, no confirmada. Y un detalle fino: el sistema de facturación estará fuera de servicio el martes de 6:00 a 8:00 p. m., justo el sistema que se necesita para anular la factura.</p></div></details><p class="lead" style="margin-top:18px">Ábrelos después de tener tu respuesta, no antes. Marca en tu hoja un dato que comprobaste y la trampa que encontraste.</p>
+</div></section><section class="sec"><div class="wrap">
+  <div class="eyebrow">// paso 4 · corregir</div>
+  <h2>Pide el cambio exacto.</h2>
+<div class="phr"><b>ejemplo de corrección para este caso</b><q>Pusiste una fecha para el cierre de mes y ningún correo la da. Cámbiala por &quot;por confirmar&quot; y dime qué le preguntarías a Miguel.</q><small>Di qué está mal, dónde, y pide cambiar solo eso. <a href="../kit/metodo.html#frases">Más frases →</a></small></div>
+</div></section><section class="sec"><div class="wrap">
+  <div class="eyebrow">// paso 5 · guardar</div>
+  <h2>Que te sirva otra vez.</h2>
+<div class="box soft"><p>Copia el prompt que te funcionó a un archivo de texto o a tus notas. Cambia los datos del caso por espacios entre corchetes, por ejemplo <b>[evento]</b> o <b>[presupuesto]</b>. Esa es tu plantilla. Si tu cuenta tiene proyectos o instrucciones personalizadas, puedes guardarla ahí.</p></div>
+</div></section><section class="sec" id="vuelta2"><div class="wrap">
+  <div class="eyebrow">// vuelta 2 · 40 min</div>
+  <h2>Ahora eliges tú.</h2>
+  <p class="lead">Las tres opciones valen igual. A los 20 minutos, revisa cómo vas.</p>
+<div class="grid g3" style="align-items:start">
+  <div class="box"><span class="n">opción a</span><h3>Tu caso propio</h3><p>Mismos cinco pasos, con algo tuyo. Ideas:</p><ul class="lista"><li>Un reporte que preparas cada semana o cada mes.</li><li>La minuta de una reunión recurrente.</li><li>El seguimiento de pendientes de tu equipo.</li><li>La respuesta a un tipo de correo que se repite.</li><li>El resumen de un documento largo para tu jefe.</li></ul><p style="margin-top:10px"><a href="../kit/datos.html">Revisa el semáforo de datos →</a></p></div>
+  <div class="box"><span class="n">opción b</span><h3>Minuta de la mudanza</h3><p>El segundo caso de esta ruta. Convierte las notas en una minuta con acuerdos, responsable, fecha y temas abiertos.</p></div>
+  <div class="box"><span class="n">opción c</span><h3>Una herramienta</h3><p>Convierte lo que resolviste en algo que puedas abrir y reutilizar en el navegador.</p></div>
+</div>
+</div></section><section class="sec"><div class="wrap">
+<div class="prompt"><div class="prompt-head"><span class="prompt-n">opción b</span><span class="prompt-t">Fuentes de Minuta de la mudanza</span><button class="copy" type="button">copiar fuentes</button></div><pre>DATOS FICTICIOS PARA PRÁCTICA · Notas crudas de una reunión
+
+Reunión de seguimiento: mudanza de oficina. Martes, 9:00 a. m.
+Asistieron: Rosa (administración), Julio (tecnología), Marta (compras), Iván (operaciones).
+
+- la mudanza sería el sábado 12. falta confirmar con el edificio si se puede usar el ascensor de carga ese día
+- Julio dice que el internet nuevo estará instalado &quot;la semana antes&quot;. el proveedor todavía no dio fecha
+- Marta va a pedir 2 cotizaciones de cajas y etiquetas, las trae el jueves
+- hay que avisar a los clientes del cambio de dirección. se habló pero nadie quedó a cargo
+- Iván entrega el inventario de mobiliario el viernes
+- presupuesto aprobado: RD$85,000. la mudanza está cotizada en RD$62,000. cajas y etiquetas, estimado RD$9,500 (sin cotización todavía)
+- Rosa pregunta si hay que contratar limpieza del local nuevo. no se decidió
+- próxima reunión: jueves 10:00 a. m.</pre></div><p style="margin:-8px 0 20px"><a class="chip" href="descargas/trabajo_notas_reunion.txt" download>↓ descargar como .txt</a></p><details class="pleg "><summary>Resultados esperados de Minuta de la mudanza</summary><div class="pleg-in"><div class="scroll"><table class="tbl"><tr><th>Qué</th><th>Resultado esperado</th></tr><tr><td>Acuerdos con responsable</td><td>3: Julio (internet), Marta (2 cotizaciones, jueves), Iván (inventario, viernes)</td></tr><tr><td>Sin responsable</td><td>Avisar a los clientes del cambio de dirección</td></tr><tr><td>Sin decidir</td><td>Limpieza del local nuevo y uso del ascensor de carga</td></tr><tr><td>Presupuesto</td><td>RD$62,000 + RD$9,500 estimado = RD$71,500; quedan RD$13,500 de RD$85,000</td></tr></table></div></div></details><details class="pleg rosa"><summary>Ver la trampa</summary><div class="pleg-in"><p>Nadie quedó a cargo de avisar a los clientes: la minuta debe decir &quot;sin responsable&quot;, no asignárselo a alguien. El internet no tiene fecha y las cajas son un estimado sin cotización.</p></div></details><div style="height:26px"></div><div class="prompt"><div class="prompt-head"><span class="prompt-n">opción c</span><span class="prompt-t">Prompt para la herramienta</span><button class="copy" type="button">copiar prompt</button></div><pre>Con lo que ya resolvimos en esta conversación, crea una herramienta sencilla: un priorizador donde pueda anotar pendientes con fecha y quién lo pide, y me los ordene por urgencia.
+Entrégala como un único archivo HTML, con los estilos y el JavaScript dentro.
+Sin instalaciones, sin conexiones externas, sin login y sin guardar datos en servidores.
+Usa solo los datos ficticios de este caso como valores iniciales.
+Debe mostrar una alerta cuando dos pendientes tengan la misma fecha y hora, o falte la fecha.
+Al final, dime tres casos de prueba con el resultado que debo ver en cada uno.</pre></div><div class="box soft"><span class="n">antes de confiar en la herramienta</span><p>Que abra en el navegador no demuestra que calcule bien. Prueba los tres casos que te dio la IA y uno con un dato inválido. Es un prototipo para explorar con datos ficticios, no un sistema para usuarios reales.</p></div>
+<div class="pager"><a class="chip" href="vida.html">← Vida cotidiana</a><a class="chip p" href="empleo.html">Empleo y estudios →</a></div></div></section>
+</main>
+<footer class="foot"><div class="wrap">
+  <img src="../assets/logo-cecomsa-color.png" alt="CECOMSA">
+  <div class="firma"><b>Solenny Peralta</b><span>Gerente de Proyectos de Innovación y Servicios TI</span></div>
+</div></footer>
+<script>
+document.querySelectorAll('.copy').forEach(function(b){b.addEventListener('click',function(){
+  var t=b.closest('.prompt').querySelector('pre').innerText;
+  navigator.clipboard.writeText(t).then(function(){var o=b.textContent;b.textContent='¡copiado!';b.classList.add('ok');setTimeout(function(){b.textContent=o;b.classList.remove('ok');},1500);});
+});});
+</script>
+</body>
+</html>

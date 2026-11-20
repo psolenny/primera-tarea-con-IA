@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Emprendimiento · Ruta 04</title>
+<meta name="description" content="Cotizar, poner precios y responder a clientes sabiendo cuánto ganas de verdad.">
+<link rel="icon" href="../assets/logo-cecomsa-color.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="../assets/taller.css">
+</head>
+<body>
+<div class="marq" aria-hidden="true"><div class="marq-track"><span>· tu primera tarea resuelta con ia · mapear · pedir · verificar · corregir · guardar </span><span>· tu primera tarea resuelta con ia · mapear · pedir · verificar · corregir · guardar </span></div></div>
+<header class="top"><div class="wrap">
+  <a href="../index.html"><img src="../assets/logo-cecomsa-color.png" alt="CECOMSA"></a>
+  <nav><a href="../index.html">El taller</a><a href="../presentacion.html">Slides</a><a href="../rutas/index.html" class="on">Rutas</a><a href="../kit/index.html">Kit</a></nav>
+</div></header>
+<nav class="tabs" aria-label="Secciones"><div class="wrap"><a href="index.html" class=""><span class="k">00</span>Rutas</a><a href="vida.html" class=""><span class="k">01</span>Vida cotidiana</a><a href="trabajo.html" class=""><span class="k">02</span>Trabajo</a><a href="empleo.html" class=""><span class="k">03</span>Empleo y estudios</a><a href="emprendimiento.html" class="on"><span class="k">04</span>Emprendimiento</a></div></nav>
+<main>
+<section class="hero"><div class="wrap">
+  <div class="tag">// ruta 04 de 04 · caso semilla: El pedido de Dulce Lote</div>
+  <h1>Emprendimiento</h1>
+  <p>Cotizar, poner precios y responder a clientes sabiendo cuánto ganas de verdad. Una repostería ficticia recibe un pedido de 80 mini cupcakes con descuento, delivery y pago con tarjeta.</p>
+</div></section><section class="sec"><div class="wrap">
+  <div class="eyebrow">// paso 1 · mapear</div>
+  <h2>Antes de pedir.</h2>
+  <p class="lead">Escríbelo en tu hoja. Si no sabes qué vas a revisar, todavía no pidas.</p>
+<div class="grid g2" style="align-items:start">
+  <div class="box"><span class="n">qué debe salir</span><p>Cotización para la clienta, cálculo de costos y ganancia, y un mensaje de respuesta.</p></div>
+  <div class="box azul"><span class="n">// qué vas a revisar antes de aceptarlo</span><ul class="check" style="margin-top:10px"><li>Que estén todos los costos, incluida la mano de obra.</li><li>Que las cajas se redondeen hacia arriba.</li><li>Que use Zona B y la comisión de tarjeta.</li></ul></div>
+</div>
+</div></section><section class="sec"><div class="wrap">
+  <div class="eyebrow">// paso 2 · pedir</div>
+  <h2>El caso y el pedido.</h2>
+<div class="prompt"><div class="prompt-head"><span class="prompt-n">fuentes</span><span class="prompt-t">Las fuentes del caso</span><button class="copy" type="button">copiar fuentes</button></div><pre>DATOS FICTICIOS PARA PRÁCTICA · El negocio, la clienta y los precios son inventados.
+
+FUENTE P1 · PEDIDO
+Negocio: Dulce Lote, repostería desde casa.
+Una clienta corporativa pide 80 mini cupcakes personalizados para un evento.
+Entrega el sábado en Zona B. Pagará con tarjeta.
+Pide el descuento por volumen. No ha confirmado sabores ni hora de entrega.
+
+FUENTE L1 · LISTA DE PRECIOS Y POLÍTICAS
+Mini cupcake: RD$45 por unidad.
+Descuento por volumen: 10% sobre el precio de los productos en pedidos de 60 unidades o más.
+El delivery se cobra aparte, al costo: Zona A RD$350, Zona B RD$600.
+Pago con tarjeta: la plataforma descuenta una comisión de 4% sobre el total cobrado (productos más delivery).
+Anticipo: 50% para reservar la fecha.
+
+FUENTE C1 · COSTOS
+Ingredientes: RD$18 por unidad.
+Cápsulas y decoración: RD$6 por unidad.
+Cajas: RD$45 cada una. En cada caja caben 12 mini cupcakes.
+Mano de obra: este pedido toma 5 horas. Valor de la hora: RD$200.
+
+FUENTE N1 · NOTA DE LA DUEÑA
+Yo todavía no me pago las horas, pero quiero saber cuánto gano de verdad con este pedido.</pre></div><p style="margin:-8px 0 26px"><a class="chip" href="descargas/emprendimiento_pedido.txt" download>↓ descargar como .txt</a></p><div class="prompt"><div class="prompt-head"><span class="prompt-n">prompt</span><span class="prompt-t">Tu pedido en formato CLARO</span><button class="copy" type="button">copiar prompt</button></div><pre>[Contexto] Tengo una repostería desde casa, Dulce Lote. Recibí un pedido de 80 mini cupcakes. Los datos son ficticios.
+[Lo que necesito] Calcula cuánto cobro, cuánto me cuesta y cuánto gano de verdad con este pedido. Después prepara la cotización.
+[Archivos] Usa solo el pedido (P1), la lista de precios (L1), los costos (C1) y mi nota (N1) que pego debajo.
+[Resultado] 1) Tabla de lo que cobro. 2) Tabla de costos, uno por línea, con la operación. 3) Ganancia o pérdida. 4) Mensaje corto para la clienta con la cotización y lo que falta confirmar.
+[Omite] No inventes costos ni cambies los precios de la lista. Si pierdo dinero, dímelo antes de escribir el mensaje.</pre></div><p class="lead" style="margin-top:8px">Pega primero el prompt y debajo las fuentes, en el mismo mensaje. Si tu cuenta permite adjuntar archivos, puedes adjuntar el .txt.</p>
+</div></section><section class="sec"><div class="wrap">
+  <div class="eyebrow">// paso 3 · verificar</div>
+  <h2>¿Cuadra?</h2>
+<details class="pleg "><summary>Ver los resultados esperados</summary><div class="pleg-in"><div class="scroll"><table class="tbl"><tr><th>Qué</th><th>Resultado esperado</th></tr><tr><td>Productos con 10% de descuento</td><td>RD$3,240</td></tr><tr><td>Total a cobrar (con delivery Zona B)</td><td>RD$3,840</td></tr><tr><td>Ingredientes</td><td>RD$1,440</td></tr><tr><td>Cápsulas y decoración</td><td>RD$480</td></tr><tr><td>Cajas (7 × RD$45)</td><td>RD$315</td></tr><tr><td>Mano de obra (5 h × RD$200)</td><td>RD$1,000</td></tr><tr><td>Delivery Zona B</td><td>RD$600</td></tr><tr><td>Comisión de tarjeta (4%)</td><td>RD$153.60</td></tr><tr><td>Costo total</td><td>RD$3,988.60</td></tr><tr><td>Resultado con descuento</td><td>−RD$148.60 · pérdida</td></tr><tr><td>Resultado sin descuento</td><td>RD$197 · ganancia</td></tr></table></div></div></details><details class="pleg rosa"><summary>Ver la trampa de este caso</summary><div class="pleg-in"><p>Si la IA deja fuera la mano de obra, el pedido parece dejar RD$851.40 de ganancia. Con las 5 horas incluidas, se pierden RD$148.60. La dueña lo pidió en su nota: quiere saber cuánto gana de verdad. Otros tres errores frecuentes: calcular 6.67 cajas en vez de 7, usar el delivery de Zona A y olvidar la comisión de la tarjeta.</p></div></details><p class="lead" style="margin-top:18px">Ábrelos después de tener tu respuesta, no antes. Marca en tu hoja un dato que comprobaste y la trampa que encontraste.</p>
+</div></section><section class="sec"><div class="wrap">
+  <div class="eyebrow">// paso 4 · corregir</div>
+  <h2>Pide el cambio exacto.</h2>
+<div class="phr"><b>ejemplo de corrección para este caso</b><q>Faltó la mano de obra: son 5 horas a RD$200. Agrégala a la tabla de costos y recalcula solo la ganancia.</q><small>Di qué está mal, dónde, y pide cambiar solo eso. <a href="../kit/metodo.html#frases">Más frases →</a></small></div>
+</div></section><section class="sec"><div class="wrap">
+  <div class="eyebrow">// paso 5 · guardar</div>
+  <h2>Que te sirva otra vez.</h2>
+<div class="box soft"><p>Copia el prompt que te funcionó a un archivo de texto o a tus notas. Cambia los datos del caso por espacios entre corchetes, por ejemplo <b>[evento]</b> o <b>[presupuesto]</b>. Esa es tu plantilla. Si tu cuenta tiene proyectos o instrucciones personalizadas, puedes guardarla ahí.</p></div>
+</div></section><section class="sec" id="vuelta2"><div class="wrap">
+  <div class="eyebrow">// vuelta 2 · 40 min</div>
+  <h2>Ahora eliges tú.</h2>
+  <p class="lead">Las tres opciones valen igual. A los 20 minutos, revisa cómo vas.</p>
+<div class="grid g3" style="align-items:start">
+  <div class="box"><span class="n">opción a</span><h3>Tu caso propio</h3><p>Mismos cinco pasos, con algo tuyo. Ideas:</p><ul class="lista"><li>Tu lista de precios con tus costos reales.</li><li>Respuestas a las preguntas que más te hacen.</li><li>El calendario de publicaciones de un mes.</li><li>La cotización de un pedido grande.</li><li>La comparación de dos proveedores.</li></ul><p style="margin-top:10px"><a href="../kit/datos.html">Revisa el semáforo de datos →</a></p></div>
+  <div class="box"><span class="n">opción b</span><h3>Tres mensajes de clientes</h3><p>El segundo caso de esta ruta. Redacta una respuesta amable para cada mensaje, con el precio y aplicando las políticas.</p></div>
+  <div class="box"><span class="n">opción c</span><h3>Una herramienta</h3><p>Convierte lo que resolviste en algo que puedas abrir y reutilizar en el navegador.</p></div>
+</div>
+</div></section><section class="sec"><div class="wrap">
+<div class="prompt"><div class="prompt-head"><span class="prompt-n">opción b</span><span class="prompt-t">Fuentes de Tres mensajes de clientes</span><button class="copy" type="button">copiar fuentes</button></div><pre>DATOS FICTICIOS PARA PRÁCTICA
+
+FUENTE L1 · LISTA DE PRECIOS Y POLÍTICAS DE DULCE LOTE
+Mini cupcake: RD$45 por unidad.
+Caja de 6 brownies: RD$420.
+Bizcocho de 1 libra: RD$950.
+Los pedidos se hacen con 48 horas de anticipación como mínimo.
+No hay entregas los domingos.
+Anticipo: 50% para reservar la fecha. No hay pago completo contra entrega.
+Delivery: Zona A RD$350, Zona B RD$600.
+
+FUENTE M · MENSAJES RECIBIDOS HOY (JUEVES)
+[M1] &quot;Hola, ¿me puedes entregar un bizcocho de 1 libra mañana?&quot;
+[M2] &quot;Quiero 2 cajas de brownies para el domingo, en Zona A.&quot;
+[M3] &quot;¿Cuánto me salen 24 mini cupcakes en Zona B? Pago todo cuando me lleguen.&quot;</pre></div><p style="margin:-8px 0 20px"><a class="chip" href="descargas/emprendimiento_mensajes.txt" download>↓ descargar como .txt</a></p><details class="pleg "><summary>Resultados esperados de Tres mensajes de clientes</summary><div class="pleg-in"><div class="scroll"><table class="tbl"><tr><th>Qué</th><th>Resultado esperado</th></tr><tr><td>M1 · bizcocho para mañana</td><td>No se puede: los pedidos requieren 48 horas. Ofrecer el sábado</td></tr><tr><td>M2 · brownies el domingo</td><td>No hay entregas los domingos. Alternativa: RD$1,190 en total (2 cajas más delivery Zona A), anticipo RD$595</td></tr><tr><td>M3 · 24 mini cupcakes en Zona B</td><td>RD$1,680 en total. No hay pago completo contra entrega: anticipo RD$840</td></tr></table></div></div></details><details class="pleg rosa"><summary>Ver la trampa</summary><div class="pleg-in"><p>La IA quiere complacer al cliente y tiende a decir que sí a todo. Las tres respuestas correctas incluyen un &quot;no&quot; amable: por el plazo, por el domingo y por el pago contra entrega.</p></div></details><div style="height:26px"></div><div class="prompt"><div class="prompt-head"><span class="prompt-n">opción c</span><span class="prompt-t">Prompt para la herramienta</span><button class="copy" type="button">copiar prompt</button></div><pre>Con lo que ya resolvimos en esta conversación, crea una herramienta sencilla: un cotizador donde pueda cambiar la cantidad de unidades, la zona de entrega, el descuento y la forma de pago.
+Entrégala como un único archivo HTML, con los estilos y el JavaScript dentro.
+Sin instalaciones, sin conexiones externas, sin login y sin guardar datos en servidores.
+Usa solo los datos ficticios de este caso como valores iniciales.
+Debe mostrar una alerta cuando el pedido deje pérdida.
+Al final, dime tres casos de prueba con el resultado que debo ver en cada uno.</pre></div><div class="box soft"><span class="n">antes de confiar en la herramienta</span><p>Que abra en el navegador no demuestra que calcule bien. Prueba los tres casos que te dio la IA y uno con un dato inválido. Es un prototipo para explorar con datos ficticios, no un sistema para usuarios reales.</p></div>
+<div class="pager"><a class="chip" href="empleo.html">← Empleo y estudios</a><a class="chip p" href="../kit/index.html">Kit →</a></div></div></section>
+</main>
+<footer class="foot"><div class="wrap">
+  <img src="../assets/logo-cecomsa-color.png" alt="CECOMSA">
+  <div class="firma"><b>Solenny Peralta</b><span>Gerente de Proyectos de Innovación y Servicios TI</span></div>
+</div></footer>
+<script>
+document.querySelectorAll('.copy').forEach(function(b){b.addEventListener('click',function(){
+  var t=b.closest('.prompt').querySelector('pre').innerText;
+  navigator.clipboard.writeText(t).then(function(){var o=b.textContent;b.textContent='¡copiado!';b.classList.add('ok');setTimeout(function(){b.textContent=o;b.classList.remove('ok');},1500);});
+});});
+</script>
+</body>
+</html>
