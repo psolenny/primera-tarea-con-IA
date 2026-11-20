@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kit · Kit del participante</title>
+<meta name="description" content="Kit del participante del taller.">
+<link rel="icon" href="../assets/logo-cecomsa-color.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="../assets/taller.css">
+</head>
+<body>
+<div class="marq" aria-hidden="true"><div class="marq-track"><span>· tu primera tarea resuelta con ia · mapear · pedir · verificar · corregir · guardar </span><span>· tu primera tarea resuelta con ia · mapear · pedir · verificar · corregir · guardar </span></div></div>
+<header class="top"><div class="wrap">
+  <a href="../index.html"><img src="../assets/logo-cecomsa-color.png" alt="CECOMSA"></a>
+  <nav><a href="../index.html">El taller</a><a href="../presentacion.html">Slides</a><a href="../rutas/index.html">Rutas</a><a href="../kit/index.html" class="on">Kit</a></nav>
+</div></header>
+<nav class="tabs" aria-label="Secciones"><div class="wrap"><a href="index.html" class="on"><span class="k">00</span>Inicio</a><a href="metodo.html" class=""><span class="k">01</span>Método</a><a href="claro.html" class=""><span class="k">02</span>CLARO</a><a href="datos.html" class=""><span class="k">03</span>Datos</a><a href="recuperacion.html" class=""><span class="k">04</span>Rescate</a><a href="plataformas.html" class=""><span class="k">05</span>Plataformas</a><a href="hoja.html" class=""><span class="k">06</span>Hoja</a></div></nav>
+<main>
+<section class="hero"><div class="wrap">
+  <div class="tag">// kit del participante</div>
+  <h1>El kit</h1>
+  <p>Seis piezas comunes a todas las rutas. Los casos, los prompts y los resultados esperados están en cada ruta.</p>
+  <div class="meta"><a class="chip p" href="../rutas/index.html">ir a las rutas →</a></div>
+</div></section><section class="sec"><div class="wrap">
+<div class="grid g3"><a class="box" href="metodo.html"><span class="n">01</span><h3>Método</h3><p>Los cinco pasos y las frases para corregir.</p></a><a class="box" href="claro.html"><span class="n">02</span><h3>Plantilla CLARO</h3><p>El marco de prompt, para llenar, con un ejemplo.</p></a><a class="box" href="datos.html"><span class="n">03</span><h3>Semáforo de datos</h3><p>Qué puedes pegar en una IA y qué no.</p></a><a class="box" href="recuperacion.html"><span class="n">04</span><h3>Rescate</h3><p>Qué hacer si te atascas o se agota tu cuenta.</p></a><a class="box" href="plataformas.html"><span class="n">05</span><h3>Plataformas</h3><p>ChatGPT, Claude o Gemini: la misma ruta.</p></a><a class="box" href="hoja.html"><span class="n">06</span><h3>Hoja del participante</h3><p>Para imprimir y llenar durante el taller.</p></a></div>
+<div class="pager"><span></span><a class="chip p" href="metodo.html">Método →</a></div></div></section>
+</main>
+<footer class="foot"><div class="wrap">
+  <img src="../assets/logo-cecomsa-color.png" alt="CECOMSA">
+  <div class="firma"><b>Solenny Peralta</b><span>Gerente de Proyectos de Innovación y Servicios TI</span></div>
+</div></footer>
+<script>
+document.querySelectorAll('.copy').forEach(function(b){b.addEventListener('click',function(){
+  var t=b.closest('.prompt').querySelector('pre').innerText;
+  navigator.clipboard.writeText(t).then(function(){var o=b.textContent;b.textContent='¡copiado!';b.classList.add('ok');setTimeout(function(){b.textContent=o;b.classList.remove('ok');},1500);});
+});});
+</script>
+</body>
+</html>

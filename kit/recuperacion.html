@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rescate · Kit del participante</title>
+<meta name="description" content="Qué hacer si te atascas durante el taller.">
+<link rel="icon" href="../assets/logo-cecomsa-color.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="../assets/taller.css">
+</head>
+<body>
+<div class="marq" aria-hidden="true"><div class="marq-track"><span>· tu primera tarea resuelta con ia · mapear · pedir · verificar · corregir · guardar </span><span>· tu primera tarea resuelta con ia · mapear · pedir · verificar · corregir · guardar </span></div></div>
+<header class="top"><div class="wrap">
+  <a href="../index.html"><img src="../assets/logo-cecomsa-color.png" alt="CECOMSA"></a>
+  <nav><a href="../index.html">El taller</a><a href="../presentacion.html">Slides</a><a href="../rutas/index.html">Rutas</a><a href="../kit/index.html" class="on">Kit</a></nav>
+</div></header>
+<nav class="tabs" aria-label="Secciones"><div class="wrap"><a href="index.html" class=""><span class="k">00</span>Inicio</a><a href="metodo.html" class=""><span class="k">01</span>Método</a><a href="claro.html" class=""><span class="k">02</span>CLARO</a><a href="datos.html" class=""><span class="k">03</span>Datos</a><a href="recuperacion.html" class="on"><span class="k">04</span>Rescate</a><a href="plataformas.html" class=""><span class="k">05</span>Plataformas</a><a href="hoja.html" class=""><span class="k">06</span>Hoja</a></div></nav>
+<main>
+<section class="hero"><div class="wrap">
+  <div class="tag">// kit · pieza 04 de 06</div>
+  <h1>Rescate</h1>
+  <p>Si te detienes, busca tu situación aquí antes de levantar la mano. Casi siempre hay una salida de un minuto.</p>
+</div></section><section class="sec"><div class="wrap">
+<div class="phr"><b>No sé qué ruta elegir</b><q>Elige la que más se parece a lo que quieres resolver el mes que viene. Si dudas, usa Vida cotidiana: es la que se muestra en la demo.</q></div><div class="phr"><b>La IA no leyó todas las fuentes</b><q>Pídele que liste qué fuentes leyó. Pega de nuevo la que falta y pide recalcular solo lo afectado.</q></div><div class="phr"><b>No puedo adjuntar archivos</b><q>No hace falta. Copia las fuentes desde la página de tu ruta y pégalas debajo del prompt.</q></div><div class="phr"><b>Mi resultado no coincide con el esperado</b><q>Bien: encontraste algo que verificar. Pide la operación paso a paso de esa cifra y corrige solo esa parte.</q></div><div class="phr"><b>Llegué al límite de mi cuenta</b><q>Sigue con los resultados esperados de tu ruta: compáralos con lo que alcanzaste a obtener y anota qué corregirías. Retoma cuando se restablezca.</q></div><div class="phr"><b>La conversación se enredó</b><q>Pide un resumen de lo acordado, abre una conversación nueva y pega el resumen con las fuentes.</q></div><div class="phr"><b>No sé qué caso propio elegir</b><q>Usa la lista de ideas de tu ruta o toma la opción B. Las tres opciones de la vuelta 2 valen igual.</q></div><div class="phr"><b>Mi caso propio tiene datos rojos</b><q>Cámbialos por datos inventados que se parezcan, o toma la opción B. Mira el semáforo de datos.</q></div><div class="phr"><b>La herramienta no abre o calcula mal</b><q>Dile a la IA qué esperabas ver y qué viste. Cambia una cosa a la vez y conserva la versión anterior.</q></div><div class="phr"><b>Terminé antes</b><q>Prueba tu plantilla con el segundo caso de tu ruta, o ayuda a alguien de tu mesa sin tocar su teclado.</q></div>
+<div class="pager"><a class="chip" href="datos.html">← Datos</a><a class="chip p" href="plataformas.html">Plataformas →</a></div></div></section>
+</main>
+<footer class="foot"><div class="wrap">
+  <img src="../assets/logo-cecomsa-color.png" alt="CECOMSA">
+  <div class="firma"><b>Solenny Peralta</b><span>Gerente de Proyectos de Innovación y Servicios TI</span></div>
+</div></footer>
+<script>
+document.querySelectorAll('.copy').forEach(function(b){b.addEventListener('click',function(){
+  var t=b.closest('.prompt').querySelector('pre').innerText;
+  navigator.clipboard.writeText(t).then(function(){var o=b.textContent;b.textContent='¡copiado!';b.classList.add('ok');setTimeout(function(){b.textContent=o;b.classList.remove('ok');},1500);});
+});});
+</script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plantilla CLARO · Kit del participante</title>
+<meta name="description" content="El marco de prompt del taller, para llenar.">
+<link rel="icon" href="../assets/logo-cecomsa-color.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="../assets/taller.css">
+</head>
+<body>
+<div class="marq" aria-hidden="true"><div class="marq-track"><span>· tu primera tarea resuelta con ia · mapear · pedir · verificar · corregir · guardar </span><span>· tu primera tarea resuelta con ia · mapear · pedir · verificar · corregir · guardar </span></div></div>
+<header class="top"><div class="wrap">
+  <a href="../index.html"><img src="../assets/logo-cecomsa-color.png" alt="CECOMSA"></a>
+  <nav><a href="../index.html">El taller</a><a href="../presentacion.html">Slides</a><a href="../rutas/index.html">Rutas</a><a href="../kit/index.html" class="on">Kit</a></nav>
+</div></header>
+<nav class="tabs" aria-label="Secciones"><div class="wrap"><a href="index.html" class=""><span class="k">00</span>Inicio</a><a href="metodo.html" class=""><span class="k">01</span>Método</a><a href="claro.html" class="on"><span class="k">02</span>CLARO</a><a href="datos.html" class=""><span class="k">03</span>Datos</a><a href="recuperacion.html" class=""><span class="k">04</span>Rescate</a><a href="plataformas.html" class=""><span class="k">05</span>Plataformas</a><a href="hoja.html" class=""><span class="k">06</span>Hoja</a></div></nav>
+<main>
+<section class="hero"><div class="wrap">
+  <div class="tag">// kit · pieza 02 de 06</div>
+  <h1>Plantilla CLARO</h1>
+  <p>El marco de prompt del taller. Cinco piezas: mientras más importante la tarea, más conviene llenarlas todas.</p>
+</div></section><section class="sec"><div class="wrap">
+<div class="grid g2" style="align-items:start">
+  <div><div class="field"><div class="fh"><b>C</b><span>Contexto</span><small>Quién eres, para quién es, qué pasa.</small></div><textarea placeholder="Soy… / Esto es para… / La situación es…" aria-label="Contexto"></textarea></div><div class="field"><div class="fh"><b>L</b><span>Lo que necesitas</span><small>La tarea, con un verbo claro.</small></div><textarea placeholder="Compara / Resume / Redacta / Calcula…" aria-label="Lo que necesitas"></textarea></div><div class="field"><div class="fh"><b>A</b><span>Archivos</span><small>Las fuentes o datos que le entregas.</small></div><textarea placeholder="Usa solo estas fuentes… / Dime qué leíste antes de empezar." aria-label="Archivos"></textarea></div><div class="field"><div class="fh"><b>R</b><span>Resultado</span><small>El formato: tabla, correo, una página.</small></div><textarea placeholder="Una tabla con… / Máximo … palabras." aria-label="Resultado"></textarea></div><div class="field"><div class="fh"><b>O</b><span>Omite</span><small>Qué no hacer: límites, tono, lo prohibido.</small></div><textarea placeholder="No inventes… / Lo que falte va como pendiente." aria-label="Omite"></textarea></div></div>
+  <div><div class="box azul"><span class="n">// ejemplo resuelto</span><p style="font-size:15.5px;line-height:1.6"><span style="color:#E31C79">[Contexto]</span> Estoy organizando un evento ficticio para 30 personas con un presupuesto máximo de RD$18,000. <span style="color:#E31C79">[Lo que necesito]</span> Compara las cuatro combinaciones de lugar y refrigerio y recomienda una. <span style="color:#E31C79">[Archivos]</span> Usa solo las fuentes que pego debajo y dime cuáles leíste. <span style="color:#E31C79">[Resultado]</span> Una tabla con el total de cada combinación y de dónde sale cada número. <span style="color:#E31C79">[Omite]</span> No inventes costos ni disponibilidad. Lo que no tenga precio va en pendientes.</p>
+    <p style="margin-top:18px;font-size:14px"><b style="color:#fff">Regla de oro:</b> escríbelo como si se lo pidieras a una persona inteligente que empezó hoy.</p></div>
+  <div class="box soft" style="margin-top:22px"><span class="n">si aprendiste otro marco</span><p>Es lo mismo con otros nombres. En las 6 partes de la charla, CLARO cubre contexto, tarea, insumos, formato y límites. El criterio de calidad es el hábito de escribir qué vas a revisar antes de pedir.</p></div></div>
+</div>
+<div class="pager"><a class="chip" href="metodo.html">← Método</a><a class="chip p" href="datos.html">Datos →</a></div></div></section>
+</main>
+<footer class="foot"><div class="wrap">
+  <img src="../assets/logo-cecomsa-color.png" alt="CECOMSA">
+  <div class="firma"><b>Solenny Peralta</b><span>Gerente de Proyectos de Innovación y Servicios TI</span></div>
+</div></footer>
+<script>
+document.querySelectorAll('.copy').forEach(function(b){b.addEventListener('click',function(){
+  var t=b.closest('.prompt').querySelector('pre').innerText;
+  navigator.clipboard.writeText(t).then(function(){var o=b.textContent;b.textContent='¡copiado!';b.classList.add('ok');setTimeout(function(){b.textContent=o;b.classList.remove('ok');},1500);});
+});});
+</script>
+</body>
+</html>

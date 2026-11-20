@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plataformas · Kit del participante</title>
+<meta name="description" content="La misma ruta en ChatGPT, Claude o Gemini.">
+<link rel="icon" href="../assets/logo-cecomsa-color.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="../assets/taller.css">
+</head>
+<body>
+<div class="marq" aria-hidden="true"><div class="marq-track"><span>· tu primera tarea resuelta con ia · mapear · pedir · verificar · corregir · guardar </span><span>· tu primera tarea resuelta con ia · mapear · pedir · verificar · corregir · guardar </span></div></div>
+<header class="top"><div class="wrap">
+  <a href="../index.html"><img src="../assets/logo-cecomsa-color.png" alt="CECOMSA"></a>
+  <nav><a href="../index.html">El taller</a><a href="../presentacion.html">Slides</a><a href="../rutas/index.html">Rutas</a><a href="../kit/index.html" class="on">Kit</a></nav>
+</div></header>
+<nav class="tabs" aria-label="Secciones"><div class="wrap"><a href="index.html" class=""><span class="k">00</span>Inicio</a><a href="metodo.html" class=""><span class="k">01</span>Método</a><a href="claro.html" class=""><span class="k">02</span>CLARO</a><a href="datos.html" class=""><span class="k">03</span>Datos</a><a href="recuperacion.html" class=""><span class="k">04</span>Rescate</a><a href="plataformas.html" class="on"><span class="k">05</span>Plataformas</a><a href="hoja.html" class=""><span class="k">06</span>Hoja</a></div></nav>
+<main>
+<section class="hero"><div class="wrap">
+  <div class="tag">// kit · pieza 05 de 06</div>
+  <h1>ChatGPT, Claude o Gemini</h1>
+  <p>El taller funciona igual en las tres. Usa una sola durante toda la sesión. La cuenta gratuita sirve.</p>
+</div></section><section class="sec"><div class="wrap">
+<div class="grid g3">
+  <div class="box"><span class="n">mismas fuentes</span><h3>Texto pegado</h3><p>Copia las fuentes desde la página de tu ruta y pégalas debajo del prompt. Funciona en cualquier plataforma y en cualquier plan.</p></div>
+  <div class="box"><span class="n">mismo encargo</span><h3>Una conversación por caso</h3><p>Abre una conversación nueva para cada caso. Si se enreda, pide un resumen y empieza otra.</p></div>
+  <div class="box"><span class="n">misma comprobación</span><h3>Resultados esperados</h3><p>Los números no dependen de la plataforma. Si tu respuesta no coincide, hay algo que corregir.</p></div>
+</div>
+</div></section><section class="sec"><div class="wrap">
+  <div class="eyebrow">// opcional</div>
+  <h2>Si tu cuenta lo permite.</h2>
+<div class="scroll"><table class="tbl"><tr><th>Plataforma</th><th>Dónde puedes guardar instrucciones o ver una herramienta</th></tr><tr><td>ChatGPT</td><td>Proyectos, GPT, instrucciones personalizadas</td></tr><tr><td>Claude</td><td>Proyectos, estilos, artefactos</td></tr><tr><td>Gemini</td><td>Gems, Canvas</td></tr></table></div><p class="lead" style="margin-top:18px">Los nombres, los botones y lo que incluye cada plan cambian con frecuencia. Si no ves una función en tu cuenta, guarda tu plantilla en un archivo de texto: funciona siempre.</p><div class="box soft"><span class="n">para la herramienta de la vuelta 2</span><p>Pide el resultado como un único archivo HTML. Si tu plataforma muestra una vista previa, úsala. Si no, copia el código, guárdalo como <b>herramienta.html</b> y ábrelo con tu navegador.</p></div>
+<div class="pager"><a class="chip" href="recuperacion.html">← Rescate</a><a class="chip p" href="hoja.html">Hoja →</a></div></div></section>
+</main>
+<footer class="foot"><div class="wrap">
+  <img src="../assets/logo-cecomsa-color.png" alt="CECOMSA">
+  <div class="firma"><b>Solenny Peralta</b><span>Gerente de Proyectos de Innovación y Servicios TI</span></div>
+</div></footer>
+<script>
+document.querySelectorAll('.copy').forEach(function(b){b.addEventListener('click',function(){
+  var t=b.closest('.prompt').querySelector('pre').innerText;
+  navigator.clipboard.writeText(t).then(function(){var o=b.textContent;b.textContent='¡copiado!';b.classList.add('ok');setTimeout(function(){b.textContent=o;b.classList.remove('ok');},1500);});
+});});
+</script>
+</body>
+</html>

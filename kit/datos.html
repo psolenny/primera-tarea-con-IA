@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Semáforo de datos · Kit del participante</title>
+<meta name="description" content="Qué puedes pegar en una IA y qué no.">
+<link rel="icon" href="../assets/logo-cecomsa-color.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="../assets/taller.css">
+</head>
+<body>
+<div class="marq" aria-hidden="true"><div class="marq-track"><span>· tu primera tarea resuelta con ia · mapear · pedir · verificar · corregir · guardar </span><span>· tu primera tarea resuelta con ia · mapear · pedir · verificar · corregir · guardar </span></div></div>
+<header class="top"><div class="wrap">
+  <a href="../index.html"><img src="../assets/logo-cecomsa-color.png" alt="CECOMSA"></a>
+  <nav><a href="../index.html">El taller</a><a href="../presentacion.html">Slides</a><a href="../rutas/index.html">Rutas</a><a href="../kit/index.html" class="on">Kit</a></nav>
+</div></header>
+<nav class="tabs" aria-label="Secciones"><div class="wrap"><a href="index.html" class=""><span class="k">00</span>Inicio</a><a href="metodo.html" class=""><span class="k">01</span>Método</a><a href="claro.html" class=""><span class="k">02</span>CLARO</a><a href="datos.html" class="on"><span class="k">03</span>Datos</a><a href="recuperacion.html" class=""><span class="k">04</span>Rescate</a><a href="plataformas.html" class=""><span class="k">05</span>Plataformas</a><a href="hoja.html" class=""><span class="k">06</span>Hoja</a></div></nav>
+<main>
+<section class="hero"><div class="wrap">
+  <div class="tag">// kit · pieza 03 de 06</div>
+  <h1>Semáforo de datos</h1>
+  <p>Antes de pegar algo en una IA, mira de qué color es. En el taller los casos son ficticios; el semáforo es para tu caso propio.</p>
+</div></section><section class="sec"><div class="wrap">
+<div class="grid g3" style="align-items:start">
+  <div class="box"><span class="n"><i class="luz v"></i>verde · sí</span><h3>Adelante</h3><ul class="lista"><li>Datos ficticios o de ejemplo.</li><li>Información que ya es pública.</li><li>Tus propios borradores y notas sin datos de otras personas.</li></ul></div>
+  <div class="box"><span class="n"><i class="luz a"></i>amarillo · con cuidado</span><h3>Primero límpialo</h3><ul class="lista"><li>Tus datos personales, como tu currículum: tú decides, pero quita cédula, dirección y teléfono.</li><li>Datos de clientes, compañeros o familiares: cambia los nombres y quita los contactos.</li><li>Información de tu empresa: solo si está autorizado y en la herramienta autorizada.</li></ul></div>
+  <div class="box"><span class="n"><i class="luz r"></i>rojo · nunca</span><h3>No lo pegues</h3><ul class="lista"><li>Contraseñas, claves y códigos de verificación.</li><li>Números de cédula, tarjetas o cuentas.</li><li>Datos privados de otras personas sin su permiso.</li></ul></div>
+</div>
+</div></section><section class="sec"><div class="wrap">
+  <div class="eyebrow">// reglas de uso</div>
+<div class="grid g2">
+  <div class="box azul"><span class="n">// seis reglas</span><ul class="check" style="margin-top:10px"><li>Verifica cada dato, cifra, cita y fuente.</li><li>Desconfía de documentos de terceros: pueden traer instrucciones ocultas.</li><li>La IA propone; tú decides qué aceptar.</li><li>Una persona revisa antes de que algo llegue a un cliente, a un pago o a otra persona.</li><li>Revisa en la configuración de tu cuenta si tus conversaciones se usan para entrenar.</li><li>Si tienes dudas sobre datos de tu trabajo, pregunta antes a quien corresponda.</li></ul></div>
+  <div class="box soft"><span class="n">en una organización</span><h3>Shadow AI</h3><p>Es usar IA fuera de lo que la organización autoriza o supervisa. Antes de llevar un caso de tu trabajo, revisa qué herramientas y qué datos están permitidos.</p></div>
+</div>
+<div class="pager"><a class="chip" href="claro.html">← CLARO</a><a class="chip p" href="recuperacion.html">Rescate →</a></div></div></section>
+</main>
+<footer class="foot"><div class="wrap">
+  <img src="../assets/logo-cecomsa-color.png" alt="CECOMSA">
+  <div class="firma"><b>Solenny Peralta</b><span>Gerente de Proyectos de Innovación y Servicios TI</span></div>
+</div></footer>
+<script>
+document.querySelectorAll('.copy').forEach(function(b){b.addEventListener('click',function(){
+  var t=b.closest('.prompt').querySelector('pre').innerText;
+  navigator.clipboard.writeText(t).then(function(){var o=b.textContent;b.textContent='¡copiado!';b.classList.add('ok');setTimeout(function(){b.textContent=o;b.classList.remove('ok');},1500);});
+});});
+</script>
+</body>
+</html>
