@@ -40,26 +40,6 @@ def index():
                   "Cada ruta trae su caso, su prompt, sus resultados esperados y una trampa que te enseña a verificar.", "rutas")
     cuerpo += '<section class="band"><div class="wrap"><p class="quote">Una respuesta <em>convincente</em> todavía necesita <em>comprobación</em>. Una sugerencia de la IA no es una <em>decisión</em>.</p></div></section>'
     cuerpo += sec(agenda, "180 minutos", "La agenda.", "Ochenta minutos de práctica en dos vueltas de cuarenta.", "agenda")
-    cuerpo += sec(f'''<div class="box negro" style="padding:34px">
-    <span class="n">workshop · 3 horas · cupo limitado</span>
-    <h3 style="font-size:clamp(26px,3.6vw,40px);margin:8px 0 14px">Lo que necesitas ese día.</h3>
-    <div class="grid g3" style="margin-top:14px">
-      <div><span class="n">cuándo</span><p style="color:#fff;font-size:17px">{FECHA}</p></div>
-      <div><span class="n">qué traer</span><p style="color:#fff;font-size:17px">Laptop, navegador y una cuenta de IA: ChatGPT, Claude o Gemini. La gratuita sirve.</p></div>
-      <div><span class="n">qué no hace falta</span><p style="color:#fff;font-size:17px">Saber programar, traer una tarea o datos de una empresa.</p></div>
-    </div>
-    <div class="meta" style="margin-top:26px">
-      <a class="chip p" id="btn-inscripcion" href="#" target="_blank" rel="noopener">Inscríbete →</a>
-      <span id="inscripcion-pronto" style="display:none;font-family:'JetBrains Mono',monospace;font-size:13px;color:rgba(255,255,255,.7);align-self:center">Las inscripciones abren pronto.</span>
-    </div>
-  </div>
-<script>
-  // Enlace del formulario de inscripción. Pégalo aquí y el botón se activa solo.
-  var FORMS_URL = '';
-  var b = document.getElementById('btn-inscripcion');
-  if (FORMS_URL) {{ b.href = FORMS_URL; }}
-  else {{ b.style.display = 'none'; document.getElementById('inscripcion-pronto').style.display = ''; }}
-</script>''', "antes de venir", id_="workshop")
     kit = "".join(f'<a class="box" href="kit/{h}"><span class="n">{k}</span><h3>{n}</h3></a>' for h, k, n in KIT_TABS[1:])
     cuerpo += sec(f'<div class="grid g3">{kit}</div>', "llévatelo", "El kit del participante.",
                   "Seis piezas comunes a todas las rutas. Los casos están en cada ruta.", "kit")
