@@ -1,0 +1,28 @@
+/* Añadidos del taller sobre site.css */
+.pleg{border:3px solid var(--ink);border-radius:12px;background:var(--blanco);box-shadow:5px 5px 0 var(--ink);margin-bottom:16px;overflow:hidden;}
+.pleg summary{cursor:pointer;padding:14px 16px;font-family:'JetBrains Mono',monospace;font-weight:700;font-size:13.5px;text-transform:uppercase;letter-spacing:.04em;background:var(--soft);list-style:none;}
+.pleg summary::-webkit-details-marker{display:none;}
+.pleg summary::before{content:"+ ";color:var(--mag);}
+.pleg[open] summary::before{content:"– ";}
+.pleg[open] summary{border-bottom:3px solid var(--ink);}
+.pleg.rosa summary{background:var(--rosa);color:var(--blanco);}
+.pleg.rosa summary::before{color:var(--blanco);}
+.pleg-in{padding:16px;}
+.pleg-in .tbl{box-shadow:none;border-width:2px;}
+.pleg-in p{font-size:16px;line-height:1.6;}
+ul.lista{margin:8px 0 0 1.1em;}
+ul.lista li{margin-bottom:6px;font-size:15px;line-height:1.45;}
+.luz{display:inline-block;width:12px;height:12px;border-radius:50%;border:2px solid var(--ink);margin-right:8px;vertical-align:-1px;}
+.luz.v{background:#1F9D6B;} .luz.a{background:#F2A516;} .luz.r{background:#E5484D;}
+.prompt pre{max-height:420px;overflow:auto;}
+.hoja .box{margin-top:18px;}
+.hl-campo{display:flex;flex-direction:column;gap:0;margin-top:10px;font-size:14px;}
+.hl-campo b{font-family:'JetBrains Mono',monospace;font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--mag);}
+.hl-campo span{display:block;height:30px;border-bottom:2px solid var(--line);}
+button.chip{cursor:pointer;font:inherit;font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:700;}
+@media print{
+  .pleg{box-shadow:none;} .pleg summary{background:none;}
+  .prompt pre{max-height:none;}
+  .hoja .box{margin-top:10px;} .hoja .salto{break-before:page;}
+  .hl-campo span{height:26px;}
+}
