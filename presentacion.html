@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tu primera tarea resuelta con IA · slides</title>
+<link rel="icon" href="assets/logo-cecomsa-color.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/deck.css">
+<style>.pop .stack .lbl{color:var(--negro);} .step.rosa h3{color:var(--negro);}</style>
+</head>
+<body>
+
+<!-- 1 -->
+<section class="slide azul">
+  <div class="eyebrow">// workshop · 3 horas · 100% práctico</div>
+  <h1>Tu primera tarea<br>resuelta con <span class="hl">IA</span>.</h1>
+  <p class="sub wide">De principio a fin.</p>
+  <div class="firma"><b>Solenny Peralta</b><span>Gerente de Proyectos de Innovación y Servicios TI</span></div>
+  <div class="notes">⏱ 0–10 · APERTURA
+Bienvenida. La meta: cada persona sale con un caso resuelto y verificado, un segundo resultado y su plantilla de prompt guardada. Todos los casos del kit son ficticios. El taller admite ChatGPT, Claude y Gemini; no prometer resultados idénticos ni límites de uso iguales.</div>
+</section>
+
+<!-- 2 -->
+<section class="slide">
+  <div class="eyebrow">// quién te acompaña</div>
+  <h2>Soy Solenny Peralta.<br>Puedes llamarme <span class="hl">Sole</span>.</h2>
+  <div class="stack" style="--w:6.5em">
+    <span class="lbl">trabajo</span><span class="val">Proyectos de Innovación y Servicios TI en CECOMSA</span><br>
+    <span class="lbl">enfoque</span><span class="val">sistemas, proyectos y gestión del cambio</span><br>
+    <span class="lbl">comunidad</span><span class="val">PythonSDQ y PyLadiesSDQ</span>
+  </div>
+  <p class="sub wide">Me interesa lo que pasa después de implementar: <strong>¿la gente lo usa?</strong></p>
+  <div class="notes">Presentación breve. Conectar gestionar el cambio con aprender a usar una herramienta.</div>
+</section>
+
+<!-- 3 -->
+<section class="slide pop">
+  <div class="eyebrow">// sondeo · a mano alzada</div>
+  <h2>¿En cuál <span class="hl">ruta</span> te ves?</h2>
+  <div class="poll">
+    <div class="opt"><span class="k">A</span><span><strong>Vida cotidiana y comunidad.</strong> Organizar una actividad, una celebración o un viaje comparando opciones y presupuesto.</span></div>
+    <div class="opt"><span class="k">B</span><span><strong>Trabajo.</strong> Ordenar información que llega dispersa: correos, agenda, notas y pendientes.</span></div>
+    <div class="opt"><span class="k">C</span><span><strong>Empleo y estudios.</strong> Postularte a una vacante, una beca o un curso sin inventar nada.</span></div>
+    <div class="opt"><span class="k">D</span><span><strong>Emprendimiento.</strong> Cotizar, poner precios y responder a clientes sabiendo cuánto ganas de verdad.</span></div>
+  </div>
+  <p class="sub wide">No necesitas traer una tarea ni tener empleo. <strong>Siéntate con tu ruta.</strong></p>
+  <div class="notes">SONDEO Y MESAS (3 min). Mano alzada por ruta y reubicar: una mesa por ruta. Si una ruta queda con una sola persona, que elija entre quedarse o sumarse a otra. Preguntar también quién vino a la charla y quién trae una tarea propia: esa gente la usará en la vuelta 2.
+Si alguien duda: Vida cotidiana, que es la ruta de la demo.</div>
+</section>
+
+<!-- 4 -->
+<section class="slide">
+  <div class="eyebrow">// lo que te llevas</div>
+  <h2>Tres cosas, <span class="hl">hoy</span>.</h2>
+  <div class="loop">
+    <div class="step"><span class="n">vuelta 1</span><h3>Un caso resuelto y verificado</h3><p>Con una respuesta correcta contra la cual comprobar.</p></div>
+    <div class="step inv"><span class="n">vuelta 2</span><h3>Un segundo resultado</h3><p>Tu caso propio, otro caso del kit o una herramienta.</p></div>
+    <div class="step"><span class="n">para después</span><h3>Tu plantilla guardada</h3><p>El prompt que funcionó, listo para repetirlo.</p></div>
+  </div>
+  <p class="sub wide">El tiempo de <strong>revisión</strong> forma parte del trabajo con IA.</p>
+  <div class="notes">Criterio de terminado por persona: 1) un dato verificado y la trampa detectada en la vuelta 1; 2) un segundo resultado verificado; 3) la plantilla guardada. Sin puntuaciones.</div>
+</section>
+
+<!-- 5 -->
+<section class="slide">
+  <div class="eyebrow">// nuestra ruta · 180 min</div>
+  <h2>Dos demos, <span class="hl">dos vueltas</span>.</h2>
+  <div class="terms">
+    <div class="term"><span class="t">0–25 · criterio</span><span class="d">Qué pedir, qué aceptar, qué datos usar.</span></div>
+    <div class="term"><span class="t">25–45 · demo 1</span><span class="d">Los 5 pasos con un caso completo.</span></div>
+    <div class="term"><span class="t">45–85 · vuelta 1</span><span class="d">El caso semilla de tu ruta.</span></div>
+    <div class="term"><span class="t">85–95 · pausa</span><span class="d">Diez minutos.</span></div>
+    <div class="term"><span class="t">95–145 · demo 2 y vuelta 2</span><span class="d">Tu caso, otro caso o una herramienta.</span></div>
+    <div class="term"><span class="t">145–180 · guardar y demos</span><span class="d">Tu plantilla y una demo por ruta.</span></div>
+  </div>
+  <div class="notes">Mostrar la ruta y los tres hitos: H1 dato verificado y trampa detectada; H2 segundo resultado; H3 plantilla guardada.</div>
+</section>
+
+<!-- 6 -->
+<section class="slide dark">
+  <div class="eyebrow">// si vienes de la charla, ya lo sabes</div>
+  <h2>Contexto.<br>Especificidad.<br><span class="hl">Verificación.</span></h2>
+  <ol class="big"><li><strong>La IA no busca la verdad.</strong> Predice la respuesta más probable.</li><li><strong>Cuando le falta contexto, completa con supuestos.</strong> Sin avisar.</li></ol>
+  <div class="notes">⏱ 10–25 · CRITERIO Y DATOS
+Recap de 2 min. No repetir las demos de la charla (CV, bot). Quien no vino a la charla recibe aquí lo mínimo: una respuesta convincente todavía necesita comprobación.</div>
+</section>
+
+<!-- 7 -->
+<section class="slide">
+  <div class="eyebrow">// el hábito de criterio</div>
+  <h2>Saber qué pedir, qué aceptar<br>y qué <span class="hl">descartar</span>.</h2>
+  <div class="stack" style="--w:5.5em">
+    <span class="lbl">antes</span><span class="val">escribe qué debe salir</span><br>
+    <span class="lbl">antes</span><span class="val">anota 2 o 3 cosas que vas a revisar</span><br>
+    <span class="lbl">después</span><span class="val">compara, corrige y decide tú</span>
+  </div>
+  <p class="sub wide">Si no puedes escribir qué vas a revisar, <strong>todavía no pidas</strong>.</p>
+  <div class="notes">El hábito se practica en la hoja, paso 1. Es lo que diferencia usar la IA de dejar que la IA decida.</div>
+</section>
+
+<!-- 8 -->
+<section class="slide">
+  <div class="eyebrow">// datos · antes de pegar algo</div>
+  <h2>El <span class="hl">semáforo</span> de datos.</h2>
+  <div class="loop">
+    <div class="step"><span class="n">verde · sí</span><h3>Adelante</h3><p>Datos ficticios, información pública, tus propios borradores.</p></div>
+    <div class="step"><span class="n">amarillo · con cuidado</span><h3>Primero límpialo</h3><p>Tu CV sin cédula ni dirección. Datos de otras personas, sin nombres. Datos de tu empresa, solo si está autorizado.</p></div>
+    <div class="step rosa"><span class="n">rojo · nunca</span><h3>No lo pegues</h3><p>Contraseñas, cédulas, tarjetas, cuentas y datos privados de otras personas.</p></div>
+  </div>
+  <p class="sub wide">Hoy los casos son ficticios. El semáforo es para <strong>tu caso propio</strong>.</p>
+  <div class="notes">QUIZ EN VOZ ALTA (3 min):
+1) Pegar la lista de precios de mi negocio → verde: es tuya.
+2) Pegar mi currículum con cédula y dirección → amarillo: quita cédula y dirección.
+3) Pegar el Excel de clientes de la empresa con teléfonos → no sin autorización; si está autorizado, anonimiza.
+No convertirlo en charla jurídica.</div>
+</section>
+
+<!-- 9 -->
+<section class="slide">
+  <div class="eyebrow">// un solo marco de prompt</div>
+  <h2>Pídelo <span class="hl">CLARO</span>.</h2>
+  <div class="stack" style="--w:2.2em">
+    <span class="lbl">C</span><span class="val">Contexto · quién eres, para quién es, qué pasa</span><br>
+    <span class="lbl">L</span><span class="val">Lo que necesitas · la tarea, con un verbo claro</span><br>
+    <span class="lbl">A</span><span class="val">Archivos · las fuentes que le entregas</span><br>
+    <span class="lbl">R</span><span class="val">Resultado · el formato que quieres</span><br>
+    <span class="lbl">O</span><span class="val">Omite · qué no hacer</span>
+  </div>
+  <p class="sub wide">Escríbelo como para una persona inteligente que <strong>empezó hoy</strong>.</p>
+  <div class="notes">Si aprendieron las 6 partes en la charla: es lo mismo con otros nombres. El criterio de calidad pasa al hábito de la lámina anterior. La plantilla está en el kit, pieza 02.</div>
+</section>
+
+<!-- 10 -->
+<section class="slide">
+  <div class="eyebrow">// el método</div>
+  <h2>Cinco pasos, <span class="hl">dos vueltas</span>.</h2>
+  <div class="stack" style="--w:7em">
+    <span class="lbl">1 mapear</span><span class="val">qué entra, qué sale, qué reviso</span><br>
+    <span class="lbl">2 pedir</span><span class="val">con CLARO y las fuentes</span><br>
+    <span class="lbl">3 verificar</span><span class="val">contra resultados esperados</span><br>
+    <span class="lbl">4 corregir</span><span class="val">un cambio concreto</span><br>
+    <span class="lbl">5 guardar</span><span class="val">el prompt que funcionó</span>
+  </div>
+  <div class="notes">⏱ 25–45 · DEMO 1
+Presentar los cinco pasos antes de abrir la IA. Se repiten iguales en las cuatro rutas.</div>
+</section>
+
+<!-- 11 -->
+<section class="slide pop">
+  <div class="eyebrow">// demo 1 · en vivo · 15 min</div>
+  <h2>El lanzamiento de<br><span class="hl">Brisa Mini</span>.</h2>
+  <div class="stack" style="--w:7em">
+    <span class="lbl">30</span><span class="val">asistentes</span><br>
+    <span class="lbl">RD$18,000</span><span class="val">presupuesto máximo</span><br>
+    <span class="lbl">2 × 2</span><span class="val">lugares y refrigerios para comparar</span>
+  </div>
+  <p class="sub wide">Ruta Vida cotidiana. Todo es ficticio: nombres, precios y condiciones.</p>
+  <div class="notes">DEMO EN VIVO, 15 min. Abrir rutas/vida.html.
+1) Mapear (2 min): leer qué debe salir y qué voy a revisar.
+2) Pedir (4 min): copiar el prompt CLARO y pegar las fuentes debajo. Pedir que liste las fuentes leídas.
+3) Verificar (5 min): comparar los cuatro totales con los resultados esperados.
+4) Corregir (2 min): si falló el mínimo de R2, usar la frase del kit. Si acertó, comprobarlo y decirlo: no inventar un fallo.
+5) Guardar (2 min): copiar el prompt a un archivo de texto.
+No enviar ni reservar nada.</div>
+</section>
+
+<!-- 12 -->
+<section class="slide">
+  <div class="eyebrow">// paso 3 · verificar</div>
+  <h2>El presupuesto tiene que <span class="hl">cuadrar</span>.</h2>
+  <table class="tbl"><tr><th>combinación</th><th>total conocido</th><th>margen contra RD$18,000</th></tr><tr><td>L1 + R1</td><td>RD$15,500</td><td>RD$2,500</td></tr><tr><td>L1 + R2</td><td>RD$16,400</td><td>RD$1,600</td></tr><tr><td>L2 + R1</td><td>RD$16,500</td><td>RD$1,500</td></tr><tr><td>L2 + R2</td><td>RD$17,400</td><td>RD$600</td></tr></table>
+  <p class="sub wide">R2 cobra menos por persona, pero factura un <strong>mínimo de 40</strong>: RD$8,900 contra RD$8,000 de R1.</p>
+  <div class="notes">Derivación: L1 = 4,500 + 1,500 de audio. L2 = 7,000 con audio incluido. Extras B1 = 1,000 + 500. R1 = 30 × 250 + 500. R2 = 40 × 200 + 900.
+Son totales de costos conocidos, no definitivos: falta el transporte del expositor.</div>
+</section>
+
+<!-- 13 -->
+<section class="slide dark">
+  <div class="eyebrow">// paso 3 · verificar</div>
+  <h2>Lo que falta<br>sigue <span class="hl">pendiente</span>.</h2>
+  <div class="stack" style="--w:6em">
+    <span class="lbl">lugar</span><span class="val">disponibilidad sin confirmar</span><br>
+    <span class="lbl">expositor</span><span class="val">transporte sin precio · solo 17:20 a 18:00</span><br>
+    <span class="lbl">producto</span><span class="val">precio de venta sin aprobar</span>
+  </div>
+  <p class="sub wide">Una sugerencia de la IA todavía no es una <strong>decisión aprobada</strong>.</p>
+  <div class="notes">Si la IA puso el transporte en cero o dio la sala por disponible, señalarlo en vivo. La agenda debe sumar 120 minutos y respetar la ventana del expositor. Al terminar: 5 min para que cada mesa abra el kit de su ruta.</div>
+</section>
+
+<!-- 14 -->
+<section class="slide">
+  <div class="eyebrow">// tu turno · abre tu ruta</div>
+  <h2>Mismo método,<br>cuatro <span class="hl">casos</span>.</h2>
+  <div class="terms">
+    <div class="term"><span class="t">01 · vida cotidiana y comunidad</span><span class="d">Lanzamiento Brisa Mini. Un evento ficticio para 30 personas con RD$18,000. Hay dos lugares y dos refrigerios para comparar.</span></div>
+    <div class="term"><span class="t">02 · trabajo</span><span class="d">Resumen de mi lunes. Ocho correos y la agenda de una semana ficticia. Hay que separar lo urgente, detectar choques y descartar el ruido.</span></div>
+    <div class="term"><span class="t">03 · empleo y estudios</span><span class="d">La vacante de Lucía. Una vacante de Analista de Compras y el currículum de una candidata ficticia que cumple solo una parte.</span></div>
+    <div class="term"><span class="t">04 · emprendimiento</span><span class="d">El pedido de Dulce Lote. Una repostería ficticia recibe un pedido de 80 mini cupcakes con descuento, delivery y pago con tarjeta.</span></div>
+  </div>
+  <div class="notes">Cada mesa abre rutas/ y entra a su ruta. Confirmar que todos ven las fuentes y el prompt antes de arrancar el cronómetro.</div>
+</section>
+
+<!-- 15 -->
+<section class="slide pop">
+  <div class="eyebrow">// vuelta 1 · 40 minutos</div>
+  <h2>Tu <span class="hl">caso semilla</span>.</h2>
+  <div class="loop">
+    <div class="step"><span class="n">primeros 10 min</span><h3>Mapear y pedir</h3><p>Llena el paso 1 de tu hoja. Pega el prompt y las fuentes.</p></div>
+    <div class="step"><span class="n">siguientes 15 min</span><h3>Obtener</h3><p>Consigue el entregable completo. Pide que liste las fuentes leídas.</p></div>
+    <div class="step"><span class="n">últimos 15 min</span><h3>Verificar y corregir</h3><p>Abre los resultados esperados. Busca la trampa. Pide una corrección.</p></div>
+  </div>
+  <p class="sub wide"><strong>Hito 1:</strong> un dato comprobado y la trampa detectada, anotados en tu hoja.</p>
+  <div class="notes">⏱ 45–85 · VUELTA 1
+Cronómetro visible. Recorrer las mesas en orden. A los 25 min avisar: "abran los resultados esperados".
+Trampas por ruta: Vida, el mínimo de R2 y los pendientes. Trabajo, la fecha de cierre de mes que nadie dio. Empleo, experiencia inventada. Emprendimiento, la mano de obra omitida.
+Si a alguien la IA le acertó todo: que lo compruebe y lo diga. No se inventa un fallo.</div>
+</section>
+
+<!-- 16 -->
+<section class="slide azul">
+  <div class="eyebrow">// pausa</div>
+  <h2>Diez <span class="hl">minutos</span>.</h2>
+  <p class="sub wide">Al volver: cómo convertir lo que hiciste en algo que puedas repetir.</p>
+  <div class="notes">⏱ 85–95 · PAUSA
+Dejar abierto el caso de la demo para la demo 2.</div>
+</section>
+
+<!-- 17 -->
+<section class="slide">
+  <div class="eyebrow">// demo 2 · 10 min</div>
+  <h2>De resultado a <span class="hl">reutilizable</span>.</h2>
+  <div class="loop">
+    <div class="step"><span class="n">plantilla</span><h3>Guarda el prompt</h3><p>Cambia los datos del caso por espacios entre corchetes. Sirve en cualquier cuenta.</p></div>
+    <div class="step inv"><span class="n">herramienta</span><h3>Vibe coding ligero</h3><p>Describes una función en lenguaje cotidiano. La IA propone código y tú pruebas el resultado.</p></div>
+  </div>
+  <p class="sub wide">Que abra en el navegador <strong>no demuestra</strong> que sea correcto ni seguro.</p>
+  <div class="notes">⏱ 95–105 · DEMO 2 PARA TODA LA SALA
+1) Plantilla (3 min): tomar el prompt de Brisa Mini y reemplazar evento, asistentes y presupuesto por corchetes.
+2) Herramienta (7 min): pegar el prompt de la opción C de la ruta Vida. Abrir el HTML, cambiar asistentes a 40 y mostrar que el total llega justo a RD$18,000 y que la capacidad de L1 se excede por 5.
+Límites: un único HTML, sin login, pagos, base de datos ni conexiones. Es un prototipo para explorar, no un sistema para usuarios reales. Si falla dos veces, seguir con la plantilla.</div>
+</section>
+
+<!-- 18 -->
+<section class="slide pop">
+  <div class="eyebrow">// vuelta 2 · 40 minutos</div>
+  <h2>Ahora <span class="hl">eliges tú</span>.</h2>
+  <div class="loop">
+    <div class="step"><span class="n">opción a</span><h3>Tu caso propio</h3><p>Algo tuyo, con los mismos cinco pasos. Revisa el semáforo.</p></div>
+    <div class="step"><span class="n">opción b</span><h3>El segundo caso</h3><p>Otro caso de tu ruta, con resultados esperados.</p></div>
+    <div class="step"><span class="n">opción c</span><h3>Una herramienta</h3><p>Convierte tu resultado en algo que se abre en el navegador.</p></div>
+  </div>
+  <p class="sub wide">Las tres valen igual. <strong>Hito 2:</strong> un segundo resultado verificado.</p>
+  <div class="notes">⏱ 105–145 · VUELTA 2
+Dar 2 minutos para elegir. Quien no decida: opción B. Quien elige la A llena primero el mini mapa de la hoja y revisa el semáforo. Si su caso tiene datos rojos: datos inventados parecidos u opción B.
+Nadie queda sin material: las opciones B y C están completas en la página de cada ruta.</div>
+</section>
+
+<!-- 19 -->
+<section class="slide">
+  <div class="eyebrow">// minuto 20 · chequeo</div>
+  <h2>“Hazlo mejor”<br><span class="hl">no sirve</span>.</h2>
+  <div class="stack" style="--w:4.5em">
+    <span class="lbl">qué</span><span class="val">“el total de la fila 2 no cuadra”</span><br>
+    <span class="lbl">dónde</span><span class="val">“corrige solo esa fila”</span><br>
+    <span class="lbl">cómo</span><span class="val">“muéstrame la suma paso a paso”</span>
+  </div>
+  <p class="sub wide">Si tu caso es muy grande, quédate con <strong>un solo paso</strong> y termínalo.</p>
+  <div class="notes">CHEQUEO A LOS 20 MIN. Preguntar mesa por mesa: ¿ya tienes un primer resultado? Quien no lo tenga reduce el alcance a un solo entregable. Recordar las frases del kit, pieza 01.</div>
+</section>
+
+<!-- 20 -->
+<section class="slide dark">
+  <div class="eyebrow">// antes de darlo por bueno</div>
+  <h2>¿Lo usarías<br><span class="hl">tal cual</span>?</h2>
+  <ol class="big"><li><strong>¿Qué le falta</strong> para enviarlo o usarlo?</li><li><strong>¿Qué descartaste</strong> de lo que propuso la IA, y por qué?</li></ol>
+  <div class="notes">La medida no es solo el tiempo. Para una tarea que se hace una vez (un CV, una cotización) la pregunta es si el resultado se puede usar. Quien tenga una tarea repetitiva puede estimar el tiempo antes y con IA: es una estimación; la medición real sale del registro de dos semanas.</div>
+</section>
+
+<!-- 21 -->
+<section class="slide">
+  <div class="eyebrow">// paso 5 · guardar · 10 min</div>
+  <h2>Que te sirva<br><span class="hl">otra vez</span>.</h2>
+  <div class="stack" style="--w:8em">
+    <span class="lbl">plantilla</span><span class="val">tu prompt con [corchetes], en un .txt</span><br>
+    <span class="lbl">proyecto</span><span class="val">solo si tu cuenta lo permite</span><br>
+    <span class="lbl">herramienta</span><span class="val">guarda el .html antes de cambiarlo</span>
+  </div>
+  <p class="sub wide"><strong>Hito 3:</strong> tu plantilla guardada y anotado dónde.</p>
+  <div class="notes">⏱ 145–155 · GUARDAR
+El archivo de texto funciona en cualquier plan. Proyectos, Gems o instrucciones personalizadas son opcionales y dependen de cada cuenta.
+Cuándo la IA no es la herramienta: cálculo exacto y repetitivo, hoja de cálculo; reglas fijas, automatización; decisiones legales o sobre personas, la persona decide.</div>
+</section>
+
+<!-- 22 -->
+<section class="slide pop">
+  <div class="eyebrow">// demos por ruta · 3 min cada una</div>
+  <h2>Muéstranos tu <span class="hl">criterio</span>.</h2>
+  <div class="stack" style="--w:2em">
+    <span class="lbl">1</span><span class="val">qué resolviste</span><br>
+    <span class="lbl">2</span><span class="val">qué verificaste y cómo</span><br>
+    <span class="lbl">3</span><span class="val">qué descartaste de la IA</span>
+  </div>
+  <p class="sub wide">Después, cuéntaselo a tu mesa en un minuto.</p>
+  <div class="notes">⏱ 155–172 · DEMOS
+Una persona voluntaria por ruta, 3 minutos. Luego demo cruzada dentro de cada mesa. Reconocer en voz alta a quien rechazó y rehízo algo que propuso la IA.</div>
+</section>
+
+<!-- 23 -->
+<section class="slide">
+  <div class="eyebrow">// cierre</div>
+  <h2>Lo que hiciste hoy<br>debe servirte <span class="hl">mañana</span>.</h2>
+  <div class="stack" style="--w:6em">
+    <span class="lbl">dónde</span><span class="val">¿en qué lo usarás esta semana?</span><br>
+    <span class="lbl">qué falta</span><span class="val">¿qué necesitas para dar ese paso?</span><br>
+    <span class="lbl">registro</span><span class="val">anota tus usos durante dos semanas</span>
+  </div>
+  <div class="notes">⏱ 172–180 · CIERRE
+Dos o tres respuestas en voz alta. Aceptar "todavía no sé" y "necesito apoyo". Recordar el segundo caso de cada ruta para practicar en casa.
+Próximos talleres: preguntar a mano alzada qué tarea concreta les gustaría resolver.</div>
+</section>
+
+<!-- 24 -->
+<section class="slide dark">
+  <div class="eyebrow">// gracias</div>
+  <h2>Pide claro.<br>Verifica <span class="hl">siempre</span>.</h2>
+  <p class="sub wide">El kit y las cuatro rutas quedan abiertos para que repitas el método.</p>
+  <div class="firma"><b>Solenny Peralta</b><span>Gerente de Proyectos de Innovación y Servicios TI</span></div>
+  <div class="notes">Dejarla en pantalla mientras la gente sale. Si hay encuesta de satisfacción, agregar aquí el código QR.</div>
+</section>
+
+<img id="logo" class="logo" alt="CECOMSA" data-color="assets/logo-cecomsa-color.png" data-blanco="assets/logo-cecomsa-blanco.png" src="assets/logo-cecomsa-color.png">
+<div class="bar" id="bar"></div>
+<div class="num" id="num"></div>
+<a class="home" id="home" href="index.html">← el taller</a>
+<div class="hint" id="hint">← → espacio · f pantalla completa · o índice · n notas</div>
+<div id="ov"><h3>Índice · clic para saltar (o / esc para cerrar)</h3><ol id="ovl"></ol></div>
+<aside id="np"><h4>Notas del presentador</h4><p id="npt"></p></aside>
+
+<script src="assets/deck.js"></script>
+</body>
+</html>
