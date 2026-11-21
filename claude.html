@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guía de Claude · Tu primera tarea resuelta con IA</title>
+<meta name="description" content="Proyecto, skill, conectores y plugins en Claude, paso a paso, con un caso guía.">
+<link rel="icon" href="assets/logo-cecomsa-color.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<link rel="stylesheet" href="assets/taller.css">
+</head>
+<body>
+<div class="marq" aria-hidden="true"><div class="marq-track"><span>· tu primera tarea resuelta con ia · mapear · pedir · verificar · corregir · guardar </span><span>· tu primera tarea resuelta con ia · mapear · pedir · verificar · corregir · guardar </span></div></div>
+<header class="top"><div class="wrap">
+  <a href="index.html"><img src="assets/logo-cecomsa-color.png" alt="CECOMSA"></a>
+  <nav><a href="index.html">El taller</a><a href="presentacion.html">Slides</a><a href="rutas/index.html">Rutas</a><a href="kit/index.html">Kit</a><a href="claude.html" class="on">Claude</a></nav>
+</div></header>
+<main>
+<style>.pasos{margin:6px 0 26px 1.2em;padding:0;line-height:1.7}.pasos li{margin:4px 0}.pasos code,.lead code{font-family:'JetBrains Mono',monospace;font-size:.92em;background:rgba(0,0,0,.06);padding:1px 6px;border-radius:5px}</style>
+<section class="hero"><div class="wrap">
+  <div class="tag">// guía de Claude · caso guía: El comunicado de Los Robles</div>
+  <h1>De un chat a un sistema</h1>
+  <p>Proyecto, skill, conectores y plugins, paso a paso. Primero con el caso guía; después con el caso que tú elijas.</p>
+</div></section><section class="sec"><div class="wrap">
+  <div class="eyebrow">// antes de empezar</div>
+  <h2>Lo que necesitas.</h2>
+  <p class="lead">Una cuenta de Claude. El plan gratis alcanza para todo, menos para los plugins.</p>
+<div class="grid g2" style="align-items:start">
+  <div class="box"><span class="n">nombres de los botones</span><p>Esta guía usa los nombres en inglés del centro de ayuda de Claude, consultado el 20 de noviembre de 2026. Si tu cuenta está en español, pueden verse traducidos o en otro lugar.</p></div>
+  <div class="box azul"><span class="n">// el semáforo sigue vigente</span><p>Lo que subes a un proyecto o conectas con un conector pasa por el mismo semáforo de datos. Rojo sigue siendo rojo.</p></div>
+</div>
+</div></section><section class="sec"><div class="wrap">
+  <div class="eyebrow">// 1 · proyecto</div>
+  <h2>Crea tu proyecto.</h2>
+  <p class="lead">Un proyecto guarda tus fuentes y tus instrucciones. No las pegas cada vez.</p>
+<ol class="pasos"><li>En el menú lateral entra a <code>Projects</code> y pulsa <code>+ New Project</code>.</li><li>Ponle nombre: <strong>Los Robles</strong>. El nombre y la descripción son para ti; Claude no los lee.</li><li>En el conocimiento del proyecto, a la derecha, pulsa <code>+</code> y sube las fuentes del caso.</li><li>Pulsa <code>Set project instructions</code>, pega las instrucciones y guarda con <code>Save instructions</code>.</li><li>Abre un chat dentro del proyecto y pega el pedido.</li></ol>
+<div class="prompt"><div class="prompt-head"><span class="prompt-n">fuentes</span><span class="prompt-t">Las fuentes del caso guía</span><button class="copy" type="button">copiar fuentes</button></div><pre>FUENTE G1 · GASTOS DE OCTUBRE · DATOS FICTICIOS PARA DEMOSTRACIÓN
+Residencial Los Robles. Junta de vecinos ficticia. 24 apartamentos.
+Pagado · Mantenimiento de áreas verdes: RD$6,500
+Pagado · Limpieza de áreas comunes: RD$8,000
+Pagado · Electricidad de áreas comunes: RD$4,350
+Cotización recibida, NO pagada · Reparación del portón: RD$3,200. La junta todavía no la aprueba.
+Todos los importes son finales y ficticios. No agregues impuestos.
+
+FUENTE G2 · CUOTAS DE OCTUBRE · DATOS FICTICIOS
+Cuota mensual por apartamento: RD$1,000.
+Apartamentos al día en octubre: 19.
+Apartamentos con la cuota de octubre pendiente: 5 (1C, 2B, 3A, 4D y 6B).
+Esta lista es solo para la tesorería. No se publica quién debe.
+
+FUENTE G3 · ACUERDOS DE LA REUNIÓN · DATOS FICTICIOS
+Pintura de la fachada: se pidieron dos cotizaciones. No hay decisión.
+Próxima reunión: en noviembre, fecha por confirmar.
+Recordatorio aprobado: la basura se saca lunes, miércoles y viernes antes de las 8:00 a. m.</pre></div>
+<p style="margin:-8px 0 26px"><a class="chip" href="rutas/descargas/guia_los_robles.txt" download>↓ descargar como .txt</a></p>
+<div class="prompt"><div class="prompt-head"><span class="prompt-n">instrucciones</span><span class="prompt-t">Instrucciones del proyecto</span><button class="copy" type="button">copiar instrucciones</button></div><pre>Eres el apoyo de la tesorería de Residencial Los Robles, una junta de vecinos ficticia.
+Trabaja solo con los archivos de este proyecto. Si un dato no está, dilo: no lo completes.
+Un gasto cuenta como pagado solo si la fuente dice &quot;Pagado&quot;. Una cotización no es un gasto.
+Nunca nombres apartamentos ni personas con cuotas pendientes: da solo la cantidad y el monto.
+Lo que esté pendiente o por confirmar se presenta como pendiente, nunca como decidido.
+Antes de entregar, muestra cada suma con sus sumandos.</pre></div>
+<div class="prompt"><div class="prompt-head"><span class="prompt-n">prompt</span><span class="prompt-t">Tu pedido en formato CLARO</span><button class="copy" type="button">copiar prompt</button></div><pre>[Contexto] Soy la tesorera de la junta de vecinos de Residencial Los Robles. Cada mes envío un comunicado al grupo de WhatsApp.
+[Lo que necesitas] Prepara el comunicado de octubre.
+[Archivos] Usa solo las fuentes G1, G2 y G3 de este proyecto. Lista las fuentes que leíste.
+[Resultado] 1) Tabla de gastos pagados con su total. 2) Recaudado, balance del mes y monto por cobrar. 3) Mensaje para WhatsApp de máximo 120 palabras. 4) Lista de pendientes.
+[Omite] No publiques quién debe. No des por aprobada ninguna cotización. No inventes fechas.
+Antes de responder, pregúntame lo que necesites saber.</pre></div>
+</div></section><section class="sec"><div class="wrap">
+  <div class="eyebrow">// 2 · verificar</div>
+  <h2>El balance tiene que cuadrar.</h2>
+  <p class="lead">Compara la respuesta con estos resultados antes de aceptarla.</p>
+<div class="scroll"><table class="tbl"><tr><th>Concepto</th><th>Cuenta</th><th>Esperado</th></tr><tr><td>Recaudado</td><td>19 × RD$1,000</td><td>RD$19,000</td></tr><tr><td>Gastos pagados</td><td>6,500 + 8,000 + 4,350</td><td>RD$18,850</td></tr><tr><td>Balance del mes</td><td>19,000 − 18,850</td><td>RD$150</td></tr><tr><td>Por cobrar</td><td>5 × RD$1,000</td><td>RD$5,000</td></tr></table></div>
+<div class="box soft"><span class="n">las trampas del caso</span><ul class="check" style="margin-top:10px"><li>El portón (RD$3,200) es una cotización: no entra en los gastos pagados.</li><li>Lo recaudado se calcula con 19 apartamentos, no con 24.</li><li>El comunicado no nombra los apartamentos que deben.</li><li>La próxima reunión no tiene fecha y la pintura no está decidida.</li></ul></div>
+</div></section><section class="sec"><div class="wrap">
+  <div class="eyebrow">// 3 · skill</div>
+  <h2>Crea y usa un skill.</h2>
+  <p class="lead">Un skill es tu método escrito una vez. Claude lo aplica cuando la tarea coincide con su descripción.</p>
+<ol class="pasos"><li>En <code>Settings</code> → <code>Capabilities</code>, activa <code>Code execution and file creation</code>. En el diseño nuevo aparece como <code>Create and edit files</code>.</li><li>Entra a <code>Customize</code> → <code>Skills</code>, pulsa <code>+</code> y luego <code>+ Create skill</code>.</li><li>Elige <code>Upload a skill</code> y sube el archivo <strong>comunicado-mensual.zip</strong>.</li><li>Confirma que el skill quedó activado en la lista.</li><li>En un chat nuevo pide: <em>prepara el comunicado de octubre</em>. No pegues las reglas: ya están en el skill.</li></ol>
+<p style="margin:-8px 0 26px"><a class="chip p" href="rutas/descargas/comunicado-mensual.zip" download>↓ descargar comunicado-mensual.zip</a></p>
+<div class="prompt"><div class="prompt-head"><span class="prompt-n">skill</span><span class="prompt-t">Lo que hay dentro: SKILL.md</span><button class="copy" type="button">copiar SKILL.md</button></div><pre>---
+name: comunicado-mensual
+description: Prepara el comunicado mensual de una junta de vecinos a partir de gastos, cuotas y acuerdos. Úsalo cuando pidan el comunicado, el resumen o el informe del mes.
+---
+
+# Comunicado mensual
+
+## Qué entregas
+1. Tabla de gastos pagados con el total.
+2. Tres cifras: recaudado, balance del mes (recaudado menos gastos pagados) y monto por cobrar.
+3. Mensaje para WhatsApp de máximo 120 palabras, en tono cordial y directo.
+4. Lista de pendientes.
+
+## Reglas
+- Usa solo las fuentes que te den. Si falta un dato, dilo y no lo completes.
+- Un gasto cuenta como pagado solo si la fuente lo dice. Una cotización va en pendientes.
+- Nunca nombres apartamentos ni personas con cuotas pendientes. Da solo cantidad y monto.
+- Lo pendiente o por confirmar se presenta como pendiente, nunca como decidido.
+
+## Antes de entregar
+- Muestra cada suma con sus sumandos.
+- Lista qué asumiste y qué no pudiste comprobar.
+- Si los números no cuadran, dilo antes del mensaje.</pre></div>
+<div class="box soft"><span class="n">cómo se arma un skill</span><p>Es una carpeta con un archivo SKILL.md. Arriba lleva <strong>name</strong> (máximo 64 caracteres) y <strong>description</strong> (máximo 200), que es lo que Claude lee para decidir cuándo usarlo. La carpeta se llama igual que el skill y se sube comprimida en un .zip.</p></div>
+</div></section><section class="sec"><div class="wrap">
+  <div class="eyebrow">// 4 · conectores y plugins</div>
+  <h2>Dale acceso a tus apps.</h2>
+  <p class="lead">Un conector deja que Claude lea una aplicación tuya, con tu permiso. Un plugin es un paquete de skills y conectores ya armado.</p>
+<div class="grid g2" style="align-items:start">
+  <div class="box"><span class="n">conector · plan gratis</span><ol class="pasos"><li><code>Customize</code> → <code>Connectors</code>.</li><li>Pulsa <code>+</code>, elige uno y pulsa <code>Connect</code>.</li><li>Sigue la autorización de esa aplicación.</li><li>En el chat: botón <code>+</code> → <code>Connectors</code> y actívalo para esa conversación.</li></ol></div>
+  <div class="box"><span class="n">plugin · planes pagos</span><ol class="pasos"><li><code>Customize</code> → <code>Plugins</code> → <code>Discover</code>.</li><li>Elige un plugin y pulsa <code>Add</code>.</li><li>En el chat, escribe <code>/</code> o pulsa <code>+</code> para ver sus skills.</li></ol></div>
+</div>
+<div class="box soft" style="margin-top:26px"><span class="n">antes de conectar algo</span><p>El conector ve lo mismo que tú ves en esa aplicación. En el taller nadie está obligado a conectar su correo ni sus archivos personales.</p></div>
+</div></section><section class="sec"><div class="wrap">
+  <div class="eyebrow">// 5 · tu turno</div>
+  <h2>Ahora, con tu caso.</h2>
+  <p class="lead">Elige el caso de tu ruta o uno propio y repite los mismos pasos.</p>
+<ol class="pasos"><li>Crea un proyecto para tu caso: sube las fuentes y escribe las instrucciones.</li><li>Pide con CLARO, verifica contra lo esperado y corrige.</li><li>Cuando el resultado te sirva, convierte el método en un skill con el pedido de abajo.</li><li>Sube el .zip en <code>Customize</code> → <code>Skills</code> y pruébalo en un chat nuevo.</li></ol>
+<div class="prompt"><div class="prompt-head"><span class="prompt-n">pedido</span><span class="prompt-t">Conviértelo en un skill</span><button class="copy" type="button">copiar pedido</button></div><pre>Convierte el método que usamos en esta conversación en un skill de Claude.
+Crea una carpeta con el nombre del skill y dentro un archivo SKILL.md con:
+- name: en minúsculas y con guiones, máximo 64 caracteres.
+- description: qué hace y cuándo usarlo, máximo 200 caracteres.
+- Qué entregas, reglas y qué revisar antes de entregar.
+No incluyas datos personales ni datos del caso: solo el método.
+Dame la carpeta en un archivo .zip para descargar.</pre></div>
+<div class="box soft"><span class="n">si el skill no carga</span><p>Pega el método en las instrucciones de tu proyecto y guarda el prompt con [corchetes] en un archivo .txt. Funciona en cualquier plan.</p></div>
+<div class="pager"><a class="chip" href="rutas/index.html">← Elige tu ruta</a><a class="chip p" href="kit/index.html">Kit del participante →</a></div></div></section>
+</main>
+<footer class="foot"><div class="wrap">
+  <img src="assets/logo-cecomsa-color.png" alt="CECOMSA">
+  <div class="firma"><b>Solenny Peralta</b><span>Gerente de Proyectos de Innovación y Servicios TI</span></div>
+</div></footer>
+<script>
+document.querySelectorAll('.copy').forEach(function(b){b.addEventListener('click',function(){
+  var t=b.closest('.prompt').querySelector('pre').innerText;
+  navigator.clipboard.writeText(t).then(function(){var o=b.textContent;b.textContent='¡copiado!';b.classList.add('ok');setTimeout(function(){b.textContent=o;b.classList.remove('ok');},1500);});
+});});
+</script>
+</body>
+</html>
