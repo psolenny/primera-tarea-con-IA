@@ -9,7 +9,7 @@ Publicado con GitHub Pages desde la rama `main`, carpeta raíz.
 | Ruta | Contenido |
 | --- | --- |
 | `index.html` | Página del taller: método, rutas, agenda y kit. |
-| `presentacion.html` | 24 láminas. Flechas para avanzar, `f` pantalla completa, `o` índice, `n` notas. |
+| `presentacion.html` | 28 láminas. Flechas para avanzar, `f` pantalla completa, `o` índice, `n` notas. |
 | `rutas/` | Una página por ruta: fuentes, prompt CLARO, resultados esperados, trampa y vuelta 2. |
 | `rutas/descargas/` | Las fuentes de cada caso en `.txt`. |
 | `kit/` | Método, plantilla CLARO, semáforo de datos, rescate, plataformas y hoja del participante. |
